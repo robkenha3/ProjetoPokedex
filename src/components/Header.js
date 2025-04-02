@@ -23,11 +23,11 @@ export const Header= (props) => {
                                 <div>Geração 1</div>
                             </Link>
 
-                            <Link to="/Tipo">
+                            <Link to="/tipo">
                                 <div>Tipo</div>
                             </Link>
 
-                            <Link to="/Pokédex">
+                            <Link to="/pokédex/0001">
                                 <div>Modo Pokédex</div>
                             </Link>
                         </div> 

@@ -14,7 +14,9 @@ export const arrayPokemon = [
         spatk: 65,
         spdef: 65,
         speed: 45,
-        total: 318
+        total: 318,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif"
+
     },
     {
         id: '0002',
@@ -31,7 +33,9 @@ export const arrayPokemon = [
         spatk: 80,
         spdef: 80,
         speed: 60,
-        total: 405
+        total: 405,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ivysauro.gif"
+
     },
     {
         id: '0003',
@@ -48,7 +52,9 @@ export const arrayPokemon = [
         spatk: 100,
         spdef: 100,
         speed: 80,
-        total: 525
+        total: 525,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/venosauro.gif"
+
 
     },
     {
@@ -66,7 +72,9 @@ export const arrayPokemon = [
         spatk: 60,
         spdef: 50,
         speed: 65,
-        total: 309
+        total: 309,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif"
+
 
     },
     {
@@ -84,7 +92,9 @@ export const arrayPokemon = [
         spatk: 80,
         spdef: 65,
         speed: 80,
-        total: 405
+        total: 405,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/charmeleon.gif"
+
 
     },
     {
@@ -102,7 +112,9 @@ export const arrayPokemon = [
         spatk: 109,
         spdef: 85,
         speed: 100,
-        total: 534
+        total: 534,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif"
+
 
     },
     {
@@ -120,7 +132,9 @@ export const arrayPokemon = [
         spatk: 50,
         spdef: 64,
         speed: 43,
-        total: 314
+        total: 314,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/squirtle.gif"
+
 
     },
     {
@@ -138,7 +152,9 @@ export const arrayPokemon = [
         spatk: 65,
         spdef: 80,
         speed: 58,
-        total: 405
+        total: 405,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/wartortle.gif"
+
 
     },
     {
@@ -156,7 +172,9 @@ export const arrayPokemon = [
         spatk: 85,
         spdef: 105,
         speed: 78,
-        total: 530
+        total: 530,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/blastoise.gif"
+
 
     },
     {

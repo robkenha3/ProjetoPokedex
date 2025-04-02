@@ -306,12 +306,15 @@ td {
   border: 10px ridge rgba(4, 91, 75, 0.5);
   background-color: rgb(3, 65, 54);
   border-radius: 5px;
-  box-shadow: -5px 5px 3px 4px black;
+  box-shadow: 0 10px 1px 0 rgb(6, 26, 22);
+  cursor: pointer;
+
 
 }
 
-.PokedexMode__button > button:hover {
-  cursor: pointer;
+.PokedexMode__button > button:active {
+  transform: translateY(10px);
+  box-shadow: 0 10px 1px 0 rgb(210, 8, 63);
 }
 
 .PokedexMode__circle-button {
@@ -331,12 +334,15 @@ td {
   border: 20px double rgba(4, 91, 75, 0.5);
   background-color: rgb(3, 65, 54);
   border-radius: 100%;
-  box-shadow: -5px 5px 3px 4px black;
+  box-shadow: 0 3px 2px 1px rgb(11, 25, 22);
+  cursor: pointer;
 
 }
 
-.PokedexMode__circle-button > button:hover {
-  cursor: pointer;
+.PokedexMode__circle-button > button:active {
+  transform: translateY(4px);
+  box-shadow: 0 3px 2px 0 rgb(210, 8, 63);
+
 }
 
 

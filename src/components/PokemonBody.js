@@ -91,11 +91,11 @@ export const PokemonBody = ({ id, name, sprites, type, species, height, weight, 
     return (
         <div className='PokemonBody'>
             <div className='PokemonBody__header'>
-                <Link to={'/' + backId}>
+                <Link to={'/gen1/' + backId}>
                     {backId === '' ? <div></div> : <button>{backName}</button>}
                 </Link>
                 <h1>{name}</h1>
-                <Link to={'/' + nextId}>
+                <Link to={'/gen1/' + nextId}>
                     {nextId === '' ? console.log("erro") : <button>{nextName}</button>}
                 </Link>
             </div>
