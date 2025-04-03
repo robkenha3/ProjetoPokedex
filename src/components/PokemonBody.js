@@ -132,42 +132,42 @@ export const PokemonBody = ({ id, name, sprites, type, species, height, weight, 
                             <td><b>HP</b></td>
                             <td>{hp}</td>
                             <td>
-                                <div style={{width: hp + "em", backgroundColor: barColor[0]}} className='PokemonBody__base-stats-bar'></div>
+                                <div style={{"--final-width": hp + "em", backgroundColor: barColor[0]}} className='PokemonBody__base-stats-bar'></div>
                             </td>
                         </tr>
                         <tr>
                             <td><b>Ataque</b></td>
                             <td>{attack}</td>
                             <td>
-                                <div style={{width: attack + "em", backgroundColor: barColor[1]}} className='PokemonBody__base-stats-bar'></div>
+                                <div style={{"--final-width": attack + "em", backgroundColor: barColor[1]}} className='PokemonBody__base-stats-bar'></div>
                             </td>
                         </tr>
                         <tr>
                             <td><b>Defesa</b></td>
                             <td>{defense}</td>
                             <td>
-                                <div style={{width: defense + "em", backgroundColor: barColor[2]}} className='PokemonBody__base-stats-bar'></div>
+                                <div style={{"--final-width": defense + "em", backgroundColor: barColor[2]}} className='PokemonBody__base-stats-bar'></div>
                             </td>
                         </tr>
                         <tr>
                             <td><b>Sp.Atq</b></td>
                             <td>{spatk}</td>
                             <td>
-                                <div style={{width: spatk + "em", backgroundColor: barColor[3]}} className='PokemonBody__base-stats-bar'></div>
+                                <div style={{"--final-width": spatk + "em", backgroundColor: barColor[3]}} className='PokemonBody__base-stats-bar'></div>
                             </td>
                         </tr>
                         <tr>
                             <td><b>Sp.Def</b></td>
                             <td>{spdef}</td>
                             <td>
-                                <div style={{width: spdef + "em", backgroundColor: barColor[4]}} className='PokemonBody__base-stats-bar'></div>
+                                <div style={{"--final-width": spdef + "em", backgroundColor: barColor[4]}} className='PokemonBody__base-stats-bar'></div>
                             </td>
                         </tr>
                         <tr>
                             <td><b>Velocidade</b></td>
                             <td>{speed}</td>
                             <td>
-                                <div style={{width: speed + "em", backgroundColor: barColor[5]}} className='PokemonBody__base-stats-bar'></div>
+                                <div style={{"--final-width": speed + "em", backgroundColor: barColor[5]}} className='PokemonBody__base-stats-bar'></div>
                             </td>
                         </tr>
                         <tr>

@@ -203,11 +203,24 @@ td {
 .PokemonBody__base-stats-bar {
   font-size: 2px;
   height: 13px;
+  width: 0;
   border-radius: 5px;
   border: 1px solid #737373;
   border-color: rgba(0, 0, 0, 0.15);
   overflow: hidden;
+  animation-name: statsBar;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
 
+@keyframes statsBar {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--final-width);
+  }
 }
 
 .PokemonBody__header {

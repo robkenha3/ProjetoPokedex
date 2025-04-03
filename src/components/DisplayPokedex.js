@@ -1,10 +1,11 @@
 import React from "react";
 
-export const DisplayPokedex = () => {
+
+export const DisplayPokedex = ({ pokemon, backPokemon, nextPokemon }) => {
     return (
-        <div>
-            
-        </div>
+        <>
+        </>
+        
 
 
     )
