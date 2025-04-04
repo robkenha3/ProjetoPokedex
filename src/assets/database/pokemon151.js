@@ -192,7 +192,8 @@ export const arrayPokemon = [
         spatk: 20,
         spdef: 20,
         speed: 45,
-        total: 195
+        total: 195,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/caterpie.gif"
 
     },
     {
@@ -210,7 +211,8 @@ export const arrayPokemon = [
         spatk: 25,
         spdef: 25,
         speed: 30,
-        total: 205
+        total: 205,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/metapod.gif"
 
     },
     {
@@ -228,7 +230,8 @@ export const arrayPokemon = [
         spatk: 90,
         spdef: 80,
         speed: 70,
-        total: 395
+        total: 395,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/butterfree.gif"
 
     },
     {
@@ -246,7 +249,8 @@ export const arrayPokemon = [
         spatk: 20,
         spdef: 20,
         speed: 50,
-        total: 195
+        total: 195,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/weedle.gif"
 
     },
     {
@@ -264,7 +268,8 @@ export const arrayPokemon = [
         spatk: 25,
         spdef: 25,
         speed: 35,
-        total: 205
+        total: 205,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kakuna.gif"
 
     },
     {
@@ -282,7 +287,8 @@ export const arrayPokemon = [
         spatk: 45,
         spdef: 80,
         speed: 75,
-        total: 395
+        total: 395,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/beedrill.gif"
 
     },
     {
@@ -300,7 +306,8 @@ export const arrayPokemon = [
         spatk: 35,
         spdef: 35,
         speed: 56,
-        total: 251
+        total: 251,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgey.gif"
 
     },
     {
@@ -318,7 +325,8 @@ export const arrayPokemon = [
         spatk: 50,
         spdef: 50,
         speed: 71,
-        total: 349
+        total: 349,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeotto.gif"
 
     },
     {
@@ -336,7 +344,8 @@ export const arrayPokemon = [
         spatk: 70,
         spdef: 70,
         speed: 101,
-        total: 479
+        total: 479,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeot.gif"
 
     },
     {
@@ -354,7 +363,8 @@ export const arrayPokemon = [
         spatk: 25,
         spdef: 35,
         speed: 72,
-        total: 253
+        total: 253,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/rattata.gif"
 
     },
     {
@@ -372,7 +382,8 @@ export const arrayPokemon = [
         spatk: 50,
         spdef: 70,
         speed: 97,
-        total: 413
+        total: 413,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/raticate.gif"
 
     },
     {
@@ -390,7 +401,8 @@ export const arrayPokemon = [
         spatk: 31,
         spdef: 31,
         speed: 70,
-        total: 262
+        total: 262,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/spearow.gif"
     },
     {
         id: '0022',
@@ -407,7 +419,8 @@ export const arrayPokemon = [
         spatk: 61,
         spdef: 61,
         speed: 100,
-        total: 442
+        total: 442,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/fearow.gif"
 
     },
     {
@@ -425,7 +438,8 @@ export const arrayPokemon = [
         spatk: 40,
         spdef: 54,
         speed: 55,
-        total: 288
+        total: 288,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ekans.gif"
 
     },
     {
@@ -443,7 +457,8 @@ export const arrayPokemon = [
         spatk: 65,
         spdef: 79,
         speed: 80,
-        total: 448
+        total: 448,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/arbok.gif"
 
     },
     {
@@ -461,7 +476,8 @@ export const arrayPokemon = [
         spatk: 50,
         spdef: 50,
         speed: 90,
-        total: 320
+        total: 320,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pikachu.gif"
     },
     {
         id: '0026',
@@ -478,7 +494,8 @@ export const arrayPokemon = [
         spatk: 90,
         spdef: 80,
         speed: 110,
-        total: 485
+        total: 485,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/raichu.gif"
 
     },
     {
@@ -496,7 +513,8 @@ export const arrayPokemon = [
         spatk: 20,
         spdef: 30,
         speed: 40,
-        total: 300
+        total: 300,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/sandshrew.gif"
 
     },
     {
@@ -514,7 +532,8 @@ export const arrayPokemon = [
         spatk: 45,
         spdef: 55,
         speed: 65,
-        total: 450
+        total: 450,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/sandslash.gif"
 
     },
     {
@@ -532,7 +551,8 @@ export const arrayPokemon = [
         spatk: 40,
         spdef: 40,
         speed: 41,
-        total: 275
+        total: 275,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-f.gif"
 
     },
     {
@@ -550,7 +570,8 @@ export const arrayPokemon = [
         spatk: 55,
         spdef: 55,
         speed: 56,
-        total: 365
+        total: 365,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidorina.gif"
 
     },
     {
@@ -568,7 +589,8 @@ export const arrayPokemon = [
         spatk: 75,
         spdef: 85,
         speed: 76,
-        total: 505
+        total: 505,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoqueen.gif"
 
     },
     {
@@ -586,7 +608,8 @@ export const arrayPokemon = [
         spatk: 40,
         spdef: 40,
         speed: 50,
-        total: 273
+        total: 273,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-m.gif"
 
     },
     {
@@ -604,7 +627,8 @@ export const arrayPokemon = [
         spatk: 55,
         spdef: 55,
         speed: 65,
-        total: 365
+        total: 365,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidorino.gif"
 
     },
     {
@@ -622,7 +646,8 @@ export const arrayPokemon = [
         spatk: 85,
         spdef: 75,
         speed: 85,
-        total: 505
+        total: 505,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoking.gif"
 
     },
     {
@@ -640,7 +665,8 @@ export const arrayPokemon = [
         spatk: 60,
         spdef: 65,
         speed: 35,
-        total: 323
+        total: 323,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/clefairy.gif"
 
     },
     {
@@ -658,7 +684,8 @@ export const arrayPokemon = [
         spatk: 95,
         spdef: 90,
         speed: 60,
-        total: 483
+        total: 483,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/clefable.gif"
 
     },
     {
@@ -676,7 +703,8 @@ export const arrayPokemon = [
         spatk: 50,
         spdef: 65,
         speed: 65,
-        total: 299
+        total: 299,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/vulpix.gif"
 
     },
     {
@@ -694,7 +722,8 @@ export const arrayPokemon = [
         spatk: 81,
         spdef: 100,
         speed: 100,
-        total: 505
+        total: 505,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ninetales.gif"
 
     },
     {
@@ -712,7 +741,8 @@ export const arrayPokemon = [
         spatk: 45,
         spdef: 25,
         speed: 20,
-        total: 270
+        total: 270,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/jigglypuff.gif"
 
     },
     {
@@ -730,7 +760,8 @@ export const arrayPokemon = [
         spatk: 85,
         spdef: 50,
         speed: 45,
-        total: 435
+        total: 435,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/wigglytuff.gif"
 
     },
     {
@@ -748,7 +779,8 @@ export const arrayPokemon = [
         spatk: 30,
         spdef: 40,
         speed: 55,
-        total: 245
+        total: 245,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/zubat.gif"
 
     },
     {
@@ -766,7 +798,8 @@ export const arrayPokemon = [
         spatk: 65,
         spdef: 75,
         speed: 90,
-        total: 455
+        total: 455,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/golbat.gif"
 
     },
     {
@@ -784,7 +817,8 @@ export const arrayPokemon = [
         spatk: 75,
         spdef: 65,
         speed: 30,
-        total: 320
+        total: 320,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/oddish.gif"
 
     },
     {
@@ -802,7 +836,8 @@ export const arrayPokemon = [
         spatk: 85,
         spdef: 75,
         speed: 40,
-        total: 395
+        total: 395,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/gloom.gif"
 
     },
     {
@@ -820,7 +855,8 @@ export const arrayPokemon = [
         spatk: 110,
         spdef: 90,
         speed: 50,
-        total: 490
+        total: 490,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/vileplume.gif"
 
     },
     {
@@ -838,7 +874,8 @@ export const arrayPokemon = [
         spatk: 45,
         spdef: 55,
         speed: 25,
-        total: 285
+        total: 285,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/paras.gif"
 
     },
     {
@@ -856,7 +893,8 @@ export const arrayPokemon = [
         spatk: 60,
         spdef: 80,
         speed: 30,
-        total: 405
+        total: 405,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/parasect.gif"
 
     },
     {
@@ -874,7 +912,8 @@ export const arrayPokemon = [
         spatk: 40,
         spdef: 55,
         speed: 45,
-        total: 305
+        total: 305,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/venonat.gif"
 
     },
     {
@@ -892,7 +931,8 @@ export const arrayPokemon = [
         spatk: 90,
         spdef: 75,
         speed: 90,
-        total: 450
+        total: 450,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/venomoth.gif"
 
     },
     {
@@ -910,7 +950,8 @@ export const arrayPokemon = [
         spatk: 35,
         spdef: 45,
         speed: 95,
-        total: 265
+        total: 265,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/diglett.gif"
 
     },
     {
@@ -928,7 +969,8 @@ export const arrayPokemon = [
         spatk: 50,
         spdef: 70,
         speed: 120,
-        total: 425
+        total: 425,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dugtrio.gif"
 
     },
     {
@@ -946,7 +988,8 @@ export const arrayPokemon = [
         spatk: 40,
         spdef: 40,
         speed: 90,
-        total: 290
+        total: 290,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/meowth.gif"
 
     },
     {
@@ -964,7 +1007,8 @@ export const arrayPokemon = [
         spatk: 65,
         spdef: 65,
         speed: 115,
-        total: 440
+        total: 440,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/persian.gif"
 
     },
     {
@@ -982,7 +1026,8 @@ export const arrayPokemon = [
         spatk: 65,
         spdef: 50,
         speed: 55,
-        total: 320
+        total: 320,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/psyduck.gif"
 
     },
     {
@@ -1000,7 +1045,8 @@ export const arrayPokemon = [
         spatk: 95,
         spdef: 80,
         speed: 85,
-        total: 500
+        total: 500,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/golduck.gif"
 
     },
     {
@@ -1018,7 +1064,8 @@ export const arrayPokemon = [
         spatk: 35,
         spdef: 45,
         speed: 70,
-        total: 305
+        total: 305,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/mankey.gif"
 
     },
     {
@@ -1036,7 +1083,8 @@ export const arrayPokemon = [
         spatk: 60,
         spdef: 70,
         speed: 95,
-        total: 455
+        total: 455,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/primeape.gif"
 
     },
     {
@@ -1054,7 +1102,8 @@ export const arrayPokemon = [
         spatk: 70,
         spdef: 50,
         speed: 60,
-        total: 350
+        total: 350,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/growlithe.gif"
 
     },
     {
@@ -1072,7 +1121,8 @@ export const arrayPokemon = [
         spatk: 100,
         spdef: 80,
         speed: 95,
-        total: 555
+        total: 555,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif"
 
     },
     {
@@ -1090,7 +1140,8 @@ export const arrayPokemon = [
         spatk: 40,
         spdef: 40,
         speed: 90,
-        total: 300
+        total: 300,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwag.gif"
 
     },
     {
@@ -1108,7 +1159,8 @@ export const arrayPokemon = [
         spatk: 50,
         spdef: 50,
         speed: 90,
-        total: 385
+        total: 385,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwhirl.gif"
 
     },
     {
@@ -1126,7 +1178,8 @@ export const arrayPokemon = [
         spatk: 70,
         spdef: 90,
         speed: 70,
-        total: 510
+        total: 510,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwrath.gif"
 
     },
     {
@@ -1144,7 +1197,8 @@ export const arrayPokemon = [
         spatk: 105,
         spdef: 55,
         speed: 90,
-        total: 310
+        total: 310,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/abra.gif"
 
     },
     {
@@ -1162,7 +1216,8 @@ export const arrayPokemon = [
         spatk: 120,
         spdef: 70,
         speed: 105,
-        total: 400
+        total: 400,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kadabra.gif"
 
     },
     {
@@ -1180,7 +1235,8 @@ export const arrayPokemon = [
         spatk: 135,
         spdef: 95,
         speed: 120,
-        total: 500
+        total: 500,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/alakazam.gif"
 
     },
     {
@@ -1198,7 +1254,8 @@ export const arrayPokemon = [
         spatk: 35,
         spdef: 35,
         speed: 35,
-        total: 305
+        total: 305,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/machop.gif"
 
     },
     {
@@ -1216,7 +1273,8 @@ export const arrayPokemon = [
         spatk: 50,
         spdef: 60,
         speed: 45,
-        total: 405
+        total: 405,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/machoke.gif"
 
     },
     {
@@ -1234,7 +1292,8 @@ export const arrayPokemon = [
         spatk: 65,
         spdef: 85,
         speed: 55,
-        total: 505
+        total: 505,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/machamp.gif"
 
     },
     {
@@ -1252,7 +1311,8 @@ export const arrayPokemon = [
         spatk: 70,
         spdef: 30,
         speed: 40,
-        total: 300
+        total: 300,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/bellsprout.gif"
 
     },
     {
@@ -1270,7 +1330,8 @@ export const arrayPokemon = [
         spatk: 85,
         spdef: 45,
         speed: 55,
-        total: 390
+        total: 390,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/weepinbell.gif"
 
     },
     {
@@ -1288,7 +1349,8 @@ export const arrayPokemon = [
         spatk: 100,
         spdef: 70,
         speed: 70,
-        total: 490
+        total: 490,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/victreebel.gif"
 
     },
     {
@@ -1306,7 +1368,8 @@ export const arrayPokemon = [
         spatk: 50,
         spdef: 100,
         speed: 70,
-        total: 335
+        total: 335,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/tentacool.gif"
 
     },
     {
@@ -1324,7 +1387,8 @@ export const arrayPokemon = [
         spatk: 80,
         spdef: 120,
         speed: 100,
-        total: 515
+        total: 515,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/tentacruel.gif"
 
     },
     {
@@ -1342,7 +1406,8 @@ export const arrayPokemon = [
         spatk: 30,
         spdef: 30,
         speed: 20,
-        total: 300
+        total: 300,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/geodude.gif"
 
     },
     {
@@ -1360,7 +1425,8 @@ export const arrayPokemon = [
         spatk: 45,
         spdef: 45,
         speed: 35,
-        total: 390
+        total: 390,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/graveler.gif"
 
     },
     {
@@ -1378,7 +1444,8 @@ export const arrayPokemon = [
         spatk: 55,
         spdef: 65,
         speed: 45,
-        total: 495
+        total: 495,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/golem.gif"
 
     },
     {
@@ -1396,7 +1463,8 @@ export const arrayPokemon = [
         spatk: 65,
         spdef: 65,
         speed: 90,
-        total: 410
+        total: 410,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ponyta.gif"
 
     },
     {
@@ -1414,7 +1482,8 @@ export const arrayPokemon = [
         spatk: 80,
         spdef: 80,
         speed: 105,
-        total: 500
+        total: 500,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/rapidash.gif"
 
     },
     {
@@ -1432,7 +1501,8 @@ export const arrayPokemon = [
         spatk: 40,
         spdef: 40,
         speed: 15,
-        total: 315
+        total: 315,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/slowpoke.gif"
 
     },
     {
@@ -1450,7 +1520,8 @@ export const arrayPokemon = [
         spatk: 100,
         spdef: 80,
         speed: 30,
-        total: 490
+        total: 490,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/slowbro.gif"
 
     },
     {
@@ -1468,7 +1539,8 @@ export const arrayPokemon = [
         spatk: 95,
         spdef: 55,
         speed: 45,
-        total: 325
+        total: 325,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/magnemite.gif"
 
     },
     {
@@ -1486,7 +1558,8 @@ export const arrayPokemon = [
         spatk: 120,
         spdef: 70,
         speed: 70,
-        total: 465
+        total: 465,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/magneton.gif"
 
     },
     {
@@ -1504,7 +1577,8 @@ export const arrayPokemon = [
         spatk: 58,
         spdef: 62,
         speed: 60,
-        total: 377
+        total: 377,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/farfetchd.gif"
 
     },
     {
@@ -1522,7 +1596,8 @@ export const arrayPokemon = [
         spatk: 35,
         spdef: 35,
         speed: 75,
-        total: 310
+        total: 310,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/doduo.gif"
 
     },
     {
@@ -1540,7 +1615,8 @@ export const arrayPokemon = [
         spatk: 60,
         spdef: 60,
         speed: 110,
-        total: 470
+        total: 470,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dodrio.gif"
 
     },
     {
@@ -1558,7 +1634,8 @@ export const arrayPokemon = [
         spatk: 45,
         spdef: 70,
         speed: 45,
-        total: 325
+        total: 325,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/seel.gif"
 
     },
     {
@@ -1576,7 +1653,8 @@ export const arrayPokemon = [
         spatk: 70,
         spdef: 95,
         speed: 70,
-        total: 475
+        total: 475,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dewgong.gif"
 
     },
     {
@@ -1594,7 +1672,8 @@ export const arrayPokemon = [
         spatk: 40,
         spdef: 50,
         speed: 25,
-        total: 325
+        total: 325,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/grimer.gif"
 
     },
     {
@@ -1612,7 +1691,8 @@ export const arrayPokemon = [
         spatk: 65,
         spdef: 100,
         speed: 50,
-        total: 500
+        total: 500,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/muk.gif"
 
     },
     {
@@ -1630,7 +1710,8 @@ export const arrayPokemon = [
         spatk: 45,
         spdef: 25,
         speed: 40,
-        total: 305
+        total: 305,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/shellder.gif"
 
     },
     {
@@ -1648,7 +1729,8 @@ export const arrayPokemon = [
         spatk: 85,
         spdef: 45,
         speed: 70,
-        total: 525
+        total: 525,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/cloyster.gif"
 
     },
     {
@@ -1666,7 +1748,8 @@ export const arrayPokemon = [
         spatk: 100,
         spdef: 35,
         speed: 80,
-        total: 310
+        total: 310,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/gastly.gif"
 
     },
     {
@@ -1684,7 +1767,8 @@ export const arrayPokemon = [
         spatk: 115,
         spdef: 55,
         speed: 95,
-        total: 405
+        total: 405,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/haunter.gif"
 
     },
     {
@@ -1702,7 +1786,8 @@ export const arrayPokemon = [
         spatk: 130,
         spdef: 75,
         speed: 110,
-        total: 500
+        total: 500,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif"
 
     },
     {
@@ -1720,7 +1805,8 @@ export const arrayPokemon = [
         spatk: 30,
         spdef: 45,
         speed: 70,
-        total: 385
+        total: 385,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/onix.gif"
 
     },
     {
@@ -1738,7 +1824,8 @@ export const arrayPokemon = [
         spatk: 43,
         spdef: 90,
         speed: 42,
-        total: 328
+        total: 328,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/drowzee.gif"
 
     },
     {
@@ -1756,7 +1843,8 @@ export const arrayPokemon = [
         spatk: 73,
         spdef: 115,
         speed: 67,
-        total: 483
+        total: 483,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/hypno.gif"
 
     },
     {
@@ -1774,7 +1862,8 @@ export const arrayPokemon = [
         spatk: 25,
         spdef: 25,
         speed: 50,
-        total: 325
+        total: 325,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/krabby.gif"
 
     },
     {
@@ -1792,7 +1881,8 @@ export const arrayPokemon = [
         spatk: 50,
         spdef: 50,
         speed: 75,
-        total: 475
+        total: 475,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kingler.gif"
 
     },
     {
@@ -1810,7 +1900,8 @@ export const arrayPokemon = [
         spatk: 55,
         spdef: 55,
         speed: 100,
-        total: 330
+        total: 330,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/voltorb.gif"
 
     },
     {
@@ -1828,7 +1919,8 @@ export const arrayPokemon = [
         spatk: 80,
         spdef: 80,
         speed: 150,
-        total: 490
+        total: 490,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/electrode.gif"
 
     },
     {
@@ -1846,7 +1938,8 @@ export const arrayPokemon = [
         spatk: 60,
         spdef: 45,
         speed: 40,
-        total: 325
+        total: 325,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggcute.gif"
 
     },
     {
@@ -1864,7 +1957,8 @@ export const arrayPokemon = [
         spatk: 125,
         spdef: 75,
         speed: 55,
-        total: 530
+        total: 530,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggutor.gif"
 
     },
     {
@@ -1882,7 +1976,8 @@ export const arrayPokemon = [
         spatk: 40,
         spdef: 50,
         speed: 35,
-        total: 320
+        total: 320,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/cubone.gif"
 
     },
     {
@@ -1900,7 +1995,8 @@ export const arrayPokemon = [
         spatk: 50,
         spdef: 80,
         speed: 45,
-        total: 425
+        total: 425,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/marowak.gif"
 
     },
     {
@@ -1918,7 +2014,8 @@ export const arrayPokemon = [
         spatk: 35,
         spdef: 110,
         speed: 87,
-        total: 455
+        total: 455,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonlee.gif"
 
     },
     {
@@ -1936,7 +2033,8 @@ export const arrayPokemon = [
         spatk: 35,
         spdef: 110,
         speed: 76,
-        total: 455
+        total: 455,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonchan.gif"
 
     },
     {
@@ -1954,7 +2052,8 @@ export const arrayPokemon = [
         spatk: 60,
         spdef: 75,
         speed: 30,
-        total: 385
+        total: 385,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/lickitung.gif"
 
     },
     {
@@ -1972,7 +2071,8 @@ export const arrayPokemon = [
         spatk: 60,
         spdef: 45,
         speed: 35,
-        total: 340
+        total: 340,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/koffing.gif"
 
     },
     {
@@ -1990,7 +2090,8 @@ export const arrayPokemon = [
         spatk: 85,
         spdef: 70,
         speed: 60,
-        total: 490
+        total: 490,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/weezing.gif"
 
     },
     {
@@ -2008,7 +2109,8 @@ export const arrayPokemon = [
         spatk: 30,
         spdef: 30,
         speed: 25,
-        total: 345
+        total: 345,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/rhyhorn.gif"
 
     },
     {
@@ -2026,7 +2128,8 @@ export const arrayPokemon = [
         spatk: 45,
         spdef: 45,
         speed: 40,
-        total: 485
+        total: 485,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/rhydon.gif"
 
     },
     {
@@ -2044,7 +2147,8 @@ export const arrayPokemon = [
         spatk: 35,
         spdef: 105,
         speed: 50,
-        total: 450
+        total: 450,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/chansey.gif"
 
     },
     {
@@ -2062,7 +2166,8 @@ export const arrayPokemon = [
         spatk: 100,
         spdef: 40,
         speed: 60,
-        total: 435
+        total: 435,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/tangela.gif"
 
     },
     {
@@ -2080,7 +2185,8 @@ export const arrayPokemon = [
         spatk: 40,
         spdef: 80,
         speed: 90,
-        total: 490
+        total: 490,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kangaskhan.gif"
 
     },
     {
@@ -2098,7 +2204,8 @@ export const arrayPokemon = [
         spatk: 70,
         spdef: 25,
         speed: 60,
-        total: 295
+        total: 295,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/horsea.gif"
 
     },
     {
@@ -2116,7 +2223,8 @@ export const arrayPokemon = [
         spatk: 95,
         spdef: 45,
         speed: 85,
-        total: 440
+        total: 440,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/seadra.gif"
 
     },
     {
@@ -2134,7 +2242,8 @@ export const arrayPokemon = [
         spatk: 35,
         spdef: 50,
         speed: 63,
-        total: 320
+        total: 320,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/goldeen.gif"
 
     },
     {
@@ -2152,7 +2261,8 @@ export const arrayPokemon = [
         spatk: 65,
         spdef: 80,
         speed: 68,
-        total: 450
+        total: 450,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/seaking.gif"
 
     },
     {
@@ -2170,7 +2280,8 @@ export const arrayPokemon = [
         spatk: 70,
         spdef: 55,
         speed: 85,
-        total: 340
+        total: 340,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/staryu.gif"
 
     },
     {
@@ -2188,7 +2299,8 @@ export const arrayPokemon = [
         spatk: 100,
         spdef: 85,
         speed: 115,
-        total: 520
+        total: 520,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/starmie.gif"
 
     },
     {
@@ -2206,7 +2318,8 @@ export const arrayPokemon = [
         spatk: 100,
         spdef: 120,
         speed: 90,
-        total: 460
+        total: 460,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/mr-mime.gif"
 
     },
     {
@@ -2224,7 +2337,8 @@ export const arrayPokemon = [
         spatk: 55,
         spdef: 80,
         speed: 105,
-        total: 500
+        total: 500,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/scyther.gif"
 
     },
     {
@@ -2242,7 +2356,8 @@ export const arrayPokemon = [
         spatk: 115,
         spdef: 95,
         speed: 95,
-        total: 455
+        total: 455,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/jynx.gif"
 
     },
     {
@@ -2260,7 +2375,8 @@ export const arrayPokemon = [
         spatk: 95,
         spdef: 85,
         speed: 105,
-        total: 490
+        total: 490,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/electabuzz.gif"
 
     },
     {
@@ -2278,7 +2394,8 @@ export const arrayPokemon = [
         spatk: 100,
         spdef: 85,
         speed: 93,
-        total: 495
+        total: 495,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/magmar.gif"
 
     },
     {
@@ -2296,7 +2413,8 @@ export const arrayPokemon = [
         spatk: 55,
         spdef: 70,
         speed: 85,
-        total: 500
+        total: 500,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pinsir.gif"
 
     },
     {
@@ -2314,7 +2432,8 @@ export const arrayPokemon = [
         spatk: 40,
         spdef: 70,
         speed: 110,
-        total: 490
+        total: 490,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/tauros.gif"
 
     },
     {
@@ -2332,7 +2451,8 @@ export const arrayPokemon = [
         spatk: 15,
         spdef: 20,
         speed: 80,
-        total: 200
+        total: 200,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/magikarp.gif"
 
     },
     {
@@ -2350,7 +2470,8 @@ export const arrayPokemon = [
         spatk: 60,
         spdef: 100,
         speed: 81,
-        total: 540
+        total: 540,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif"
 
     },
     {
@@ -2368,7 +2489,8 @@ export const arrayPokemon = [
         spatk: 85,
         spdef: 95,
         speed: 60,
-        total: 535
+        total: 535,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/lapras.gif"
 
     },
     {
@@ -2386,7 +2508,8 @@ export const arrayPokemon = [
         spatk: 48,
         spdef: 48,
         speed: 48,
-        total: 288
+        total: 288,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ditto.gif"
 
     },
     {
@@ -2404,7 +2527,8 @@ export const arrayPokemon = [
         spatk: 45,
         spdef: 65,
         speed: 55,
-        total: 325
+        total: 325,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/eevee.gif"
 
     },
     {
@@ -2422,7 +2546,8 @@ export const arrayPokemon = [
         spatk: 110,
         spdef: 95,
         speed: 65,
-        total: 525
+        total: 525,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/vaporeon.gif"
 
     },
     {
@@ -2440,7 +2565,8 @@ export const arrayPokemon = [
         spatk: 110,
         spdef: 95,
         speed: 130,
-        total: 525
+        total: 525,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/jolteon.gif"
 
     },
     {
@@ -2458,7 +2584,8 @@ export const arrayPokemon = [
         spatk: 95,
         spdef: 110,
         speed: 65,
-        total: 525
+        total: 525,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/flareon.gif"
 
     },
     {
@@ -2476,7 +2603,8 @@ export const arrayPokemon = [
         spatk: 85,
         spdef: 75,
         speed: 40,
-        total: 395
+        total: 395,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/porygon.gif"
 
     },
     {
@@ -2494,7 +2622,8 @@ export const arrayPokemon = [
         spatk: 90,
         spdef: 55,
         speed: 35,
-        total: 355
+        total: 355,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/omanyte.gif"
 
     },
     {
@@ -2512,7 +2641,8 @@ export const arrayPokemon = [
         spatk: 115,
         spdef: 70,
         speed: 55,
-        total: 495
+        total: 495,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/omastar.gif"
 
     },
     {
@@ -2530,7 +2660,8 @@ export const arrayPokemon = [
         spatk: 55,
         spdef: 45,
         speed: 55,
-        total: 355
+        total: 355,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kabuto.gif"
 
     },
     {
@@ -2548,7 +2679,8 @@ export const arrayPokemon = [
         spatk: 65,
         spdef: 70,
         speed: 80,
-        total: 495
+        total: 495,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kabutops.gif"
 
     },
     {
@@ -2566,7 +2698,8 @@ export const arrayPokemon = [
         spatk: 60,
         spdef: 75,
         speed: 130,
-        total: 515
+        total: 515,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/aerodactyl.gif"
 
     },
     {
@@ -2584,7 +2717,8 @@ export const arrayPokemon = [
         spatk: 65,
         spdef: 110,
         speed: 30,
-        total: 540
+        total: 540,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/snorlax.gif"
 
     },
     {
@@ -2602,7 +2736,8 @@ export const arrayPokemon = [
         spatk: 95,
         spdef: 125,
         speed: 85,
-        total: 580
+        total: 580,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/articuno.gif"
 
     },
     {
@@ -2620,7 +2755,8 @@ export const arrayPokemon = [
         spatk: 125,
         spdef: 90,
         speed: 100,
-        total: 580
+        total: 580,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/zapdos.gif"
 
     },
     {
@@ -2638,7 +2774,8 @@ export const arrayPokemon = [
         spatk: 125,
         spdef: 85,
         speed: 90,
-        total: 580
+        total: 580,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/moltres.gif"
 
     },
     {
@@ -2656,7 +2793,8 @@ export const arrayPokemon = [
         spatk: 50,
         spdef: 50,
         speed: 50,
-        total: 300
+        total: 300,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dratini.gif"
 
     },
     {
@@ -2674,7 +2812,8 @@ export const arrayPokemon = [
         spatk: 70,
         spdef: 70,
         speed: 70,
-        total: 420
+        total: 420,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/droganir.gif"
 
     },
     {
@@ -2692,7 +2831,8 @@ export const arrayPokemon = [
         spatk: 100,
         spdef: 100,
         speed: 80,
-        total: 600
+        total: 600,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dragonite.gif"
 
     },
     {
@@ -2710,7 +2850,8 @@ export const arrayPokemon = [
         spatk: 154,
         spdef: 90,
         speed: 130,
-        total: 680
+        total: 680,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/mewtwo.gif"
 
     },
     {
@@ -2728,7 +2869,8 @@ export const arrayPokemon = [
         spatk: 100,
         spdef: 100,
         speed: 100,
-        total: 600
+        total: 600,
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/mew.gif"
 
     },
 ];
