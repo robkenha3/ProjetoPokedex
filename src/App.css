@@ -358,21 +358,29 @@ td {
 .DisplayPokedex {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   width: inherit;
   height: inherit;
 }
 
 .DisplayPokedex__gif-container {
   display: flex;
+  justify-content: center;
   position: relative;
-  top: 40px;
-  margin: auto;
+  order: 2;
+
+  /* top: 40px; */
+  /* margin: auto; */
   /* background-color: black; */
 }
 
-.DisplayPokedex__gif-container img {
-  /* width: 50px;
-  height: 100px; */
+.DisplayPokedex__type-container {
+  width: 150px;
+  height: 5px;
+  position: relative;
+  bottom: 15px;
+  order: 1;
 }
 
 

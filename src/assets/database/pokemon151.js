@@ -2813,7 +2813,7 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 70,
         total: 420,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/droganir.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dragonair.gif"
 
     },
     {
