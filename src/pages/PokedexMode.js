@@ -1,39 +1,44 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Pokedex from '../assets/Images/Pokédex.jpg'
 import { DisplayPokedex } from '../components/DisplayPokedex.js'
 import { arrayPokemon } from '../assets/database/pokemon151.js'
-import { useParams, Link } from 'react-router-dom'
-
 
 export const PokedexMode = () => {
-  let { id } = useParams();
 
-  let currentPokemon = arrayPokemon.find((el) => {
-    return el.id === id;
-  })
+  let [ firstPokemon, setFirstPokemon ]  = useState(arrayPokemon[0]);
   
-  let backPokemon = arrayPokemon[arrayPokemon.findIndex((el) => el.id === id) - 1] || null;
-
-  let nextPokemon = arrayPokemon[arrayPokemon.findIndex(el => el.id === id) + 1] || null;
-
+  let backPokemon = () => {
+    setFirstPokemon(previousState => {
+      let currentIndex = arrayPokemon.findIndex(pokemon => pokemon.id === previousState.id);
+      if (currentIndex <= 0) return previousState;
+  
+      return arrayPokemon[currentIndex - 1];
+    });
+  }
+  
+  let nextPokemon = () => {
+    setFirstPokemon(previousState => {
+      let currentIndex = arrayPokemon.findIndex(pokemon => pokemon.id === previousState.id);
+      if (currentIndex >= arrayPokemon.length - 1) return previousState;
+  
+      return arrayPokemon[currentIndex + 1];
+    });
+  }
+  
   return (
   <div className='PokedexMode'>
     <div className='PokedexMode__container'>
 
         <div className = "PokedexMode__background">
-          <DisplayPokedex pokemon={currentPokemon} backPokemon={backPokemon} nextPokemon={nextPokemon}/>
+          <DisplayPokedex currentPokemon={firstPokemon.gif} name={firstPokemon.name}/>
         </div>
 
         <img style={{position: "relative", zIndex: 1}} src={Pokedex} alt="Imagem da Pokédex"></img>
 
         <div className="PokedexMode__button">
-        {/* <Link to="/"> */}
-            <button className="PokedexMode__button-back" onClick={() => {}}></button>
-        {/* </Link> */}
+            <button className="PokedexMode__button-back" onClick={backPokemon}></button>
 
-        {/* <Link to="/"> */}
-            <button className="PokedexMode__button-next" onClick={() => {}}></button>
-        {/* </Link> */}
+            <button className="PokedexMode__button-next" onClick={nextPokemon}></button>
         </div>
 
         <div className="PokedexMode__circle-button">

@@ -14,7 +14,6 @@ export const Pokemon = () => {
     let nextName = '';
     let backName = '';
 
-
     for(let poke of arrayPokemon) {
         if(poke.id === nextId) {
             nextName = poke.name;

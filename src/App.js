@@ -15,7 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/gen1/:id" element={<Pokemon />}/>
-      <Route path="/pokédex/:id" element={<PokedexMode />}/>
+      <Route path="/pokédex/" element={<PokedexMode />}/>
       <Route path="/tipo" element={<Type />}/>
       {/* <ItemListPokemon /> */} 
     </Routes>

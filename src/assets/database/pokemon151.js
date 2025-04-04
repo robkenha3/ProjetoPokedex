@@ -34,7 +34,7 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 60,
         total: 405,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ivysauro.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif"
 
     },
     {
@@ -53,7 +53,7 @@ export const arrayPokemon = [
         spdef: 100,
         speed: 80,
         total: 525,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/venosauro.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif"
 
 
     },

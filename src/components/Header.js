@@ -27,7 +27,7 @@ export const Header= (props) => {
                                 <div>Tipo</div>
                             </Link>
 
-                            <Link to="/pokédex/0001">
+                            <Link to="/pokédex">
                                 <div>Modo Pokédex</div>
                             </Link>
                         </div> 

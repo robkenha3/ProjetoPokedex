@@ -305,24 +305,21 @@ td {
   display: flex;
   justify-content: space-between;
   position: relative;
-  border: 1px solid black;
   width: 280px;
   bottom: 170px;
   left: 150px;
+  z-index: 2;
 
 }
 
 .PokedexMode__button > button {
   width: 100px;
   height: 50px;
-  z-index: 2;
   border: 10px ridge rgba(4, 91, 75, 0.5);
   background-color: rgb(3, 65, 54);
   border-radius: 5px;
   box-shadow: 0 10px 1px 0 rgb(6, 26, 22);
   cursor: pointer;
-
-
 }
 
 .PokedexMode__button > button:active {
@@ -357,6 +354,27 @@ td {
   box-shadow: 0 3px 2px 0 rgb(210, 8, 63);
 
 }
+
+.DisplayPokedex {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  height: inherit;
+}
+
+.DisplayPokedex__gif-container {
+  display: flex;
+  position: relative;
+  top: 40px;
+  margin: auto;
+  /* background-color: black; */
+}
+
+.DisplayPokedex__gif-container img {
+  /* width: 50px;
+  height: 100px; */
+}
+
 
 
 /* 
