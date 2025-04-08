@@ -72,8 +72,11 @@ const Type = ({ type }) => {
   
   return (
     <>
+    <div className='Type'>
       <div style={{backgroundColor:`${rgbType[0]}`}} className="ButtonType">{newButton[0]}</div>
+
       {newButton.length === 2 ? <div style={{backgroundColor: rgbType[1]}} className="ButtonType">{newButton[1]}</div> : ''}
+    </div>
     </>
   )
 }

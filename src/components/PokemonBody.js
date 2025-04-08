@@ -26,10 +26,9 @@ export const PokemonBody = ({ id, name, sprites, type, species, height, weight, 
                     <p><b>Pokedéx Nº </b>{id}</p>
 
                     <hr/>
-                    <div>
-                        
-                    <b>Tipo</b>
-                        <Type type={type}/>
+
+                    <div>    
+                        <b>Tipo</b><Type type={type}/>
                     </div>
 
                     <hr/>

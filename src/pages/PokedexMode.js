@@ -35,7 +35,7 @@ export const PokedexMode = () => {
           <DisplayPokedex currentPokemon={currentPokemon.gif} name={currentPokemon.name} type={currentPokemon.type} hp={currentPokemon.hp} attack={currentPokemon.attack} defense={currentPokemon.defense} spatk={currentPokemon.spatk} spdef={currentPokemon.spdef} speed={currentPokemon.speed} total={currentPokemon.total}/>
         </div>
 
-        <img style={{position: "relative", zIndex: 1}} src={Pokedex} alt="Imagem da Pokédex"></img>
+        <img style={{position: "relative", zIndex: 0}} src={Pokedex} alt="Imagem da Pokédex"></img>
 
         <div className="PokedexMode__button">
             <button className="PokedexMode__button-back" onClick={backPokemon}></button>
