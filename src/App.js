@@ -5,7 +5,7 @@ import Home from './pages/Home.js';
 import { Pokemon } from './pages/Pokemon.js'
 import { Footer } from './components/Footer.js';
 import { PokedexMode } from './pages/PokedexMode.js';
-import Type from "./components/Type.js"
+import Type from "./pages/Type.js"
 
 function App() {
   return (
