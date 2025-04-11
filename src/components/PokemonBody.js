@@ -19,7 +19,7 @@ export const PokemonBody = ({ id, name, sprites, type, species, height, weight, 
 
             <div className='PokemonBody__container'>
                 <div className='PokemonBody__sprites'>
-                    <img src={sprites} alt={"Sprite do " + name}></img>
+                    <img key={name} src={sprites} alt={"Sprite do " + name}></img>
                 </div>
 
                 <div className="PokemonBody__info-container">

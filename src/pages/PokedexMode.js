@@ -40,7 +40,7 @@ export const PokedexMode = () => {
   <div className='PokedexMode'>
     <div className='PokedexMode__container'>
         <div className="PokedexMode__background">
-          <img src={currentBg}></img>
+          <img key={currentPokemon.type} src={currentBg}></img>
             
           <DisplayPokedex currentPokemon={currentPokemon.gif} name={currentPokemon.name} type={currentPokemon.type} height={currentPokemon.height} hp={currentPokemon.hp} attack={currentPokemon.attack} defense={currentPokemon.defense} spatk={currentPokemon.spatk} spdef={currentPokemon.spdef} speed={currentPokemon.speed} total={currentPokemon.total}/>
         </div>

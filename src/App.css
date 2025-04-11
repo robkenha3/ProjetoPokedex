@@ -36,8 +36,6 @@ a {
   background-color: rgb(11, 188, 212);
   margin: 20px;
   box-shadow: 3px 2px 5px 3px black;
-  /* outline: 2px solid black; */
-  /* outline-width: 5px; */
 }
 
 .Header__tiny-circle {
@@ -295,10 +293,8 @@ td {
   position: absolute;
   width: 320px;
   height: 220px;
-  /* background-color: blue; */
   left: 120px;
   top: 250px;
-  /* opacity: 0.7; */
 }
 
 .PokedexMode__background > img {
@@ -336,8 +332,7 @@ td {
   display: flex;
   justify-content: space-between;
   position: relative;
-  /* border: 1px solid black; */
-  width: 280px;
+  width: 280px;  
   bottom: 290px;
   left: 100px;
 }
@@ -345,7 +340,6 @@ td {
 .PokedexMode__circle-button > button {
   width: 50px;
   height: 50px;
-  /* z-index: 2; */
   border: 20px double rgba(4, 91, 75, 0.5);
   background-color: rgb(3, 65, 54);
   border-radius: 100%;
@@ -362,7 +356,6 @@ td {
 
 .DisplayPokedex {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-around;
   align-items: center;
   width: inherit;
@@ -373,15 +366,9 @@ td {
   display: flex;
   justify-content: center;
   position: relative;
-  /* width: inherit; */
   margin-left: 70px;
-  /* height: inherit;
-  margin: center; */
   left: 50px;
   top: 20px;
-  /* top: 40px; */
-  /* margin: auto; */
-  /* background-color: black; */
   width: 10px;
   height: 100px;
 }
@@ -398,7 +385,6 @@ td {
   display: flex;
   position: relative;
   flex-direction: column;
-  /* border: 1px solid black; */
   z-index: 1;
   left: 320px;
   bottom: 40px;
@@ -407,44 +393,52 @@ td {
 }
 
 .DisplayPokedex__type-container {
-  /* width: 220px; */
   height: 5px;
   position: relative;
   bottom: 15px;
   top: 300px;
-  
-  /* border: 50px solid red; */
   order: 1;
 
 
 }
 
+
 .DisplayPokedex__stats-bar-container {
   position: relative;
   bottom: 5px;
+  left: 5px;
   order: 0;
+}
+
+.DisplayPokedex__stats-bar-container td > div{
+  font-size: 0.7px;
+  height: 5px;
 }
 
 .DisplayPokedex__stats-bar-container td {
   padding: 0 7px 0 0;
-  font-size: 10px;
+  font-size: 11px;
   color: rgb(229, 226, 226);
 }
 
 .DisplayPokedex__type-container .Type{
   display: flex;
   position: relative;
-  margin-left: 25px;
+  margin-left: 22px;
   width: 300px;
   bottom: 20px;
   
 }
 
+.DisplayPokedex__type-container .Type div{
+  width: 70px;
+  text-align: center;
+  opacity: 0.6;
+}
+
 .DisplayPokedex__type-container .Type div + div{
-  display: flex;
   position: relative;
-  left: 96px;
-  
+  left: 92px;
 }
 
  

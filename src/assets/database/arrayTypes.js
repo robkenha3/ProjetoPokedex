@@ -62,7 +62,7 @@ export const arrayTypes = [
     {
         id: 11,
         type: "Psíquico",
-        img: "/assets/img/backgrounds/background-psychic.jpeg",
+        img: "/assets/img/backgrounds/background-fairy.jpeg",
     },
     {
         id: 12,
