@@ -27,8 +27,28 @@ export const PokedexMode = () => {
   }
 
   useEffect(() => {
-      let splitType = currentPokemon.type.split("/")[0];
-      let bgPokemon = arrayTypes.find(el => splitType === el.type)
+      let splitType = currentPokemon.type.split("/");
+      if(splitType[0] === "Fogo" && splitType[1] === "Voador") {
+        splitType[0] = splitType[0];
+      } else if(splitType[0] === "Veneno" && splitType[1] === "Voador") {
+        splitType[0] = splitType[0];
+      } else if(splitType[0] === "Elétrico" && splitType[1] === "Voador") {
+        splitType[0] = splitType[0];
+      } else if(splitType[0] === "Inseto" && splitType[1] === "Voador") {
+        splitType[0] = splitType[0];
+      } else if(splitType[0] === "Água" && splitType[1] === "Voador") {
+        splitType[0] = splitType[0];
+      } else if(splitType[0] === "Gelo" && splitType[1] === "Voador") {
+        splitType[0] = splitType[0];
+      } else if(splitType[0] === "Dragão" && splitType[1] === "Voador") {
+        splitType[0] = splitType[0];
+      } else if(splitType[0] === "Pedra" && splitType[1] === "Voador") {
+        splitType[0] = splitType[0];
+      } else if(splitType[1] === "Voador") {
+        splitType[0] = splitType[1];
+      }
+      
+      let bgPokemon = arrayTypes.find(el => splitType[0] === el.type)
       // console.log(bgPokemon)
 
       setCurrentBg((previousState) => {
