@@ -3,11 +3,14 @@ import Type from "./Type";
 import PokemonStatsBar from "./PokemonStatsBar";
 
 
-export const DisplayPokedex = ({ currentPokemon, name, type, hp, attack, defense, spatk, spdef, speed, total }) => {
+export const DisplayPokedex = ({ currentPokemon, name, type, hp, attack, defense, spatk, spdef, speed, total, height }) => {
+    let formatedHeight = height.split(" ")[0];
+    console.log(name, formatedHeight);
+
     return (
         <div className="DisplayPokedex">
             <div className="DisplayPokedex__gif-container">
-                <img src={currentPokemon} alt={`Gif do pokemon ${name}`}/>
+                <img src={currentPokemon} alt={`Gif do pokemon ${name}`} style={{height: `${formatedHeight}em`}}/>
             </div>
 
             <div className="DisplayPokedex__type-stats-container">

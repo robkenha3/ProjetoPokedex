@@ -11,23 +11,6 @@ a {
   text-decoration: none;
 }
 
-/* .bg-Normal {background-image: url("./assets/Images/background-normal.jpeg")} */
-.bg-Fogo {background-image: url("./assets/Images/background-fire.jpeg")}
-.bg-Água {background-image: url("./assets/Images/background-water.jpeg")}
-/* .bg-Elétrico {background-image: url("./assets/Images/background-eletric.jpeg")} */
-.bg-Grama {background-image: url("./assets/Images/background-grass.jpeg")}
-/* .bg-Gelo {background-image: url("./assets/Images/background-ice.jpeg")} */
-/* .bg-Lutador {background-image: url("./assets/Images/background-fighting.jpeg")} */
-/* .bg-Veneno {background-image: url("./assets/Images/background-poison.jpeg")} */
-/* .bg-Terra {background-image: url("./assets/Images/background-ground.jpeg")} */
-.bg-Voador {background-image: url("./assets/Images/background-flying.jpeg")}
-/* .bg-Psíquico {background-image: url("./assets/Images/background-psychic.jpeg")} */
-.bg-Inseto {background-image: url("./assets/Images/background-insect.jpeg")}
-/* .bg-Pedra {background-image: url("./assets/Images/background-rock.jpeg")} */
-/* .bg-Fantasma {background-image: url("./assets/Images/background-ghost.jpeg")} */
-/* .bg-Dragão {background-image: url("./assets/Images/background-dragon.jpeg")} */
-/* .bg-Fada {background-image: url("./assets/Images/background-fairy.jpeg")} */
-
 .Header {
   display: flex;
   justify-content: space-between;
@@ -315,11 +298,13 @@ td {
   /* background-color: blue; */
   left: 120px;
   top: 250px;
-  background-image: var(--type-bg);
   /* opacity: 0.7; */
-  background-repeat: no-repeat;
-  background-size: cover;
+}
 
+.PokedexMode__background > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .PokedexMode__button {
@@ -399,6 +384,14 @@ td {
   /* background-color: black; */
   width: 10px;
   height: 100px;
+}
+
+.DisplayPokedex__gif-container > img {
+  position: relative;
+  font-size: 70px;
+  margin: auto;
+  height: auto;
+  bottom: 20px;
 }
 
 .DisplayPokedex__type-stats-container {

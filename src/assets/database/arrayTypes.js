@@ -20,7 +20,7 @@ export const arrayTypes = [
     {
         id: 4,
         type: "Elétrico",
-        img: "/assets/img/backgrounds/background-eletric.jpeg",
+        img: "/assets/img/backgrounds/background-normal.jpeg",
 
     },
     {
@@ -38,13 +38,13 @@ export const arrayTypes = [
     {
         id: 7,
         type: "Lutador",
-        img: "/assets/img/backgrounds/background-fighting.jpeg",
+        img: "/assets/img/backgrounds/background-normal.jpeg",
 
     },
     {
         id: 8,
         type: "Veneno",
-        img: "/assets/img/backgrounds/background-insect.jpeg",
+        img: "/assets/img/backgrounds/background-grass.jpeg",
 
     },
     {
@@ -67,7 +67,7 @@ export const arrayTypes = [
     {
         id: 12,
         type: "Inseto",
-        img: "/assets/img/backgrounds/background-insect.jpeg",
+        img: "/assets/img/backgrounds/background-grass.jpeg",
 
     },
     {
