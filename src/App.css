@@ -441,6 +441,20 @@ td {
   left: 92px;
 }
 
+.DisplayPokedex__name-id {
+  position: absolute;
+  bottom: 140px;
+  width: 150px;
+  border: 1px solid rgb(119, 116, 116);
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px gray;
+  border-radius: 6px;
+  background-color: gray;
+  opacity: 0.8;
+  word-spacing: 5px;
+}
+
  
 
 
