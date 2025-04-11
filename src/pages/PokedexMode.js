@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import Pokedex from '../assets/Images/Pokédex.jpg'  
 import { DisplayPokedex } from '../components/DisplayPokedex.js'
 import { arrayPokemon } from '../assets/database/pokemon151.js'
@@ -7,6 +7,16 @@ import { arrayTypes } from '../assets/database/arrayTypes.js'
 export const PokedexMode = () => {
   let [ currentPokemon, setCurrentPokemon ]  = useState(arrayPokemon[0]);
   let [ currentBg, setCurrentBg] = useState(arrayTypes.find(el => el.type === "Grama").img)
+
+  let audioRef = useRef(null);
+  console.log(audioRef)
+
+  let audioPokemon = () => {
+    if (audioRef.current) {
+      audioRef.current.load();
+      audioRef.current.play();
+    }
+  }
 
   let backPokemon = () => {
     setCurrentPokemon(previousState => {
@@ -74,7 +84,11 @@ export const PokedexMode = () => {
         </div>
 
         <div className="PokedexMode__circle-button">
-            <button onClick={() => {}}></button>
+            <button onClick={audioPokemon}></button>
+
+            <audio ref={audioRef}>
+              <source src={currentPokemon.audio} type="audio/mp3"/>
+            </audio>  
         </div>
 
     </div>

@@ -15,7 +15,8 @@ export const arrayPokemon = [
         spdef: 65,
         speed: 45,
         total: 318,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif",
+        audio: "https://pokemoncries.com/cries-old/1.mp3"
 
     },
     {
@@ -34,7 +35,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 60,
         total: 405,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif",
+        audio: "https://pokemoncries.com/cries-old/2.mp3"
 
     },
     {
@@ -53,8 +55,8 @@ export const arrayPokemon = [
         spdef: 100,
         speed: 80,
         total: 525,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif"
-
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif",
+        audio: "https://pokemoncries.com/cries-old/3.mp3"
 
     },
     {
@@ -73,8 +75,8 @@ export const arrayPokemon = [
         spdef: 50,
         speed: 65,
         total: 309,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif"
-
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif",
+        audio: "https://pokemoncries.com/cries-old/4.mp3"
 
     },
     {
@@ -93,8 +95,8 @@ export const arrayPokemon = [
         spdef: 65,
         speed: 80,
         total: 405,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/charmeleon.gif"
-
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/charmeleon.gif",
+        audio: "https://pokemoncries.com/cries-old/5.mp3"
 
     },
     {
@@ -113,8 +115,8 @@ export const arrayPokemon = [
         spdef: 85,
         speed: 100,
         total: 534,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif"
-
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif",
+        audio: "https://pokemoncries.com/cries-old/6.mp3"
 
     },
     {
@@ -133,8 +135,8 @@ export const arrayPokemon = [
         spdef: 64,
         speed: 43,
         total: 314,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/squirtle.gif"
-
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/squirtle.gif",
+        audio: "https://pokemoncries.com/cries-old/7.mp3"
 
     },
     {
@@ -153,8 +155,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 58,
         total: 405,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/wartortle.gif"
-
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/wartortle.gif",
+        audio: "https://pokemoncries.com/cries-old/8.mp3"
 
     },
     {
@@ -173,8 +175,8 @@ export const arrayPokemon = [
         spdef: 105,
         speed: 78,
         total: 530,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/blastoise.gif"
-
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/blastoise.gif",
+        audio: "https://pokemoncries.com/cries-old/9.mp3"
 
     },
     {
@@ -193,7 +195,8 @@ export const arrayPokemon = [
         spdef: 20,
         speed: 45,
         total: 195,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/caterpie.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/caterpie.gif",
+        audio: "https://pokemoncries.com/cries-old/10.mp3"
 
     },
     {
@@ -212,7 +215,8 @@ export const arrayPokemon = [
         spdef: 25,
         speed: 30,
         total: 205,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/metapod.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/metapod.gif",
+        audio: "https://pokemoncries.com/cries-old/11.mp3"
 
     },
     {
@@ -231,7 +235,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 70,
         total: 395,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/butterfree.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/butterfree.gif",
+        audio: "https://pokemoncries.com/cries-old/12.mp3"
 
     },
     {
@@ -250,7 +255,8 @@ export const arrayPokemon = [
         spdef: 20,
         speed: 50,
         total: 195,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/weedle.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/weedle.gif",
+        audio: "https://pokemoncries.com/cries-old/13.mp3"
 
     },
     {
@@ -269,7 +275,8 @@ export const arrayPokemon = [
         spdef: 25,
         speed: 35,
         total: 205,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kakuna.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kakuna.gif",
+        audio: "https://pokemoncries.com/cries-old/14.mp3"
 
     },
     {
@@ -288,7 +295,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 75,
         total: 395,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/beedrill.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/beedrill.gif",
+        audio: "https://pokemoncries.com/cries-old/15.mp3"
 
     },
     {
@@ -307,7 +315,8 @@ export const arrayPokemon = [
         spdef: 35,
         speed: 56,
         total: 251,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgey.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgey.gif",
+        audio: "https://pokemoncries.com/cries-old/16.mp3"
 
     },
     {
@@ -326,7 +335,8 @@ export const arrayPokemon = [
         spdef: 50,
         speed: 71,
         total: 349,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeotto.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeotto.gif",
+        audio: "https://pokemoncries.com/cries-old/17.mp3"
 
     },
     {
@@ -345,7 +355,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 101,
         total: 479,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeot.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeot.gif",
+        audio: "https://pokemoncries.com/cries-old/18.mp3"
 
     },
     {
@@ -364,7 +375,8 @@ export const arrayPokemon = [
         spdef: 35,
         speed: 72,
         total: 253,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/rattata.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/rattata.gif",
+        audio: "https://pokemoncries.com/cries-old/19.mp3"
 
     },
     {
@@ -383,7 +395,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 97,
         total: 413,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/raticate.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/raticate.gif",
+        audio: "https://pokemoncries.com/cries-old/20.mp3"
 
     },
     {
@@ -402,7 +415,9 @@ export const arrayPokemon = [
         spdef: 31,
         speed: 70,
         total: 262,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/spearow.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/spearow.gif",
+        audio: "https://pokemoncries.com/cries-old/21.mp3"
+
     },
     {
         id: '0022',
@@ -420,7 +435,8 @@ export const arrayPokemon = [
         spdef: 61,
         speed: 100,
         total: 442,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/fearow.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/fearow.gif",
+        audio: "https://pokemoncries.com/cries-old/22.mp3"
 
     },
     {
@@ -439,7 +455,8 @@ export const arrayPokemon = [
         spdef: 54,
         speed: 55,
         total: 288,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ekans.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ekans.gif",
+        audio: "https://pokemoncries.com/cries-old/23.mp3"
 
     },
     {
@@ -458,7 +475,8 @@ export const arrayPokemon = [
         spdef: 79,
         speed: 80,
         total: 448,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/arbok.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/arbok.gif",
+        audio: "https://pokemoncries.com/cries-old/24.mp3"
 
     },
     {
@@ -477,7 +495,9 @@ export const arrayPokemon = [
         spdef: 50,
         speed: 90,
         total: 320,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pikachu.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pikachu.gif",
+        audio: "https://pokemoncries.com/cries-old/25.mp3"
+
     },
     {
         id: '0026',
@@ -495,7 +515,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 110,
         total: 485,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/raichu.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/raichu.gif",
+        audio: "https://pokemoncries.com/cries-old/26.mp3"
 
     },
     {
@@ -514,7 +535,8 @@ export const arrayPokemon = [
         spdef: 30,
         speed: 40,
         total: 300,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/sandshrew.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/sandshrew.gif",
+        audio: "https://pokemoncries.com/cries-old/27.mp3"
 
     },
     {
@@ -533,7 +555,8 @@ export const arrayPokemon = [
         spdef: 55,
         speed: 65,
         total: 450,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/sandslash.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/sandslash.gif",
+        audio: "https://pokemoncries.com/cries-old/28.mp3"
 
     },
     {
@@ -552,7 +575,8 @@ export const arrayPokemon = [
         spdef: 40,
         speed: 41,
         total: 275,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-f.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-f.gif",
+        audio: "https://pokemoncries.com/cries-old/29.mp3"
 
     },
     {
@@ -571,7 +595,8 @@ export const arrayPokemon = [
         spdef: 55,
         speed: 56,
         total: 365,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidorina.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidorina.gif",
+        audio: "https://pokemoncries.com/cries-old/30.mp3"
 
     },
     {
@@ -590,7 +615,8 @@ export const arrayPokemon = [
         spdef: 85,
         speed: 76,
         total: 505,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoqueen.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoqueen.gif",
+        audio: "https://pokemoncries.com/cries-old/31.mp3"
 
     },
     {
@@ -609,7 +635,8 @@ export const arrayPokemon = [
         spdef: 40,
         speed: 50,
         total: 273,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-m.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-m.gif",
+        audio: "https://pokemoncries.com/cries-old/32.mp3"
 
     },
     {
@@ -628,7 +655,8 @@ export const arrayPokemon = [
         spdef: 55,
         speed: 65,
         total: 365,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidorino.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidorino.gif",
+        audio: "https://pokemoncries.com/cries-old/33.mp3"
 
     },
     {
@@ -647,7 +675,8 @@ export const arrayPokemon = [
         spdef: 75,
         speed: 85,
         total: 505,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoking.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoking.gif",
+        audio: "https://pokemoncries.com/cries-old/34.mp3"
 
     },
     {
@@ -666,7 +695,8 @@ export const arrayPokemon = [
         spdef: 65,
         speed: 35,
         total: 323,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/clefairy.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/clefairy.gif",
+        audio: "https://pokemoncries.com/cries-old/35.mp3"
 
     },
     {
@@ -685,7 +715,8 @@ export const arrayPokemon = [
         spdef: 90,
         speed: 60,
         total: 483,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/clefable.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/clefable.gif",
+        audio: "https://pokemoncries.com/cries-old/36.mp3"
 
     },
     {
@@ -704,7 +735,8 @@ export const arrayPokemon = [
         spdef: 65,
         speed: 65,
         total: 299,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/vulpix.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/vulpix.gif",
+        audio: "https://pokemoncries.com/cries-old/37.mp3"
 
     },
     {
@@ -723,7 +755,8 @@ export const arrayPokemon = [
         spdef: 100,
         speed: 100,
         total: 505,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ninetales.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ninetales.gif",
+        audio: "https://pokemoncries.com/cries-old/38.mp3"
 
     },
     {
@@ -742,7 +775,8 @@ export const arrayPokemon = [
         spdef: 25,
         speed: 20,
         total: 270,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/jigglypuff.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/jigglypuff.gif",
+        audio: "https://pokemoncries.com/cries-old/39.mp3"
 
     },
     {
@@ -761,7 +795,8 @@ export const arrayPokemon = [
         spdef: 50,
         speed: 45,
         total: 435,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/wigglytuff.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/wigglytuff.gif",
+        audio: "https://pokemoncries.com/cries-old/40.mp3"
 
     },
     {
@@ -780,7 +815,8 @@ export const arrayPokemon = [
         spdef: 40,
         speed: 55,
         total: 245,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/zubat.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/zubat.gif",
+        audio: "https://pokemoncries.com/cries-old/41.mp3"
 
     },
     {
@@ -799,7 +835,8 @@ export const arrayPokemon = [
         spdef: 75,
         speed: 90,
         total: 455,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/golbat.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/golbat.gif",
+        audio: "https://pokemoncries.com/cries-old/42.mp3"
 
     },
     {
@@ -818,7 +855,8 @@ export const arrayPokemon = [
         spdef: 65,
         speed: 30,
         total: 320,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/oddish.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/oddish.gif",
+        audio: "https://pokemoncries.com/cries-old/43.mp3"
 
     },
     {
@@ -837,7 +875,8 @@ export const arrayPokemon = [
         spdef: 75,
         speed: 40,
         total: 395,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/gloom.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/gloom.gif",
+        audio: "https://pokemoncries.com/cries-old/44.mp3"
 
     },
     {
@@ -856,7 +895,8 @@ export const arrayPokemon = [
         spdef: 90,
         speed: 50,
         total: 490,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/vileplume.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/vileplume.gif",
+        audio: "https://pokemoncries.com/cries-old/45.mp3"
 
     },
     {
@@ -875,7 +915,8 @@ export const arrayPokemon = [
         spdef: 55,
         speed: 25,
         total: 285,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/paras.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/paras.gif",
+        audio: "https://pokemoncries.com/cries-old/46.mp3"
 
     },
     {
@@ -894,7 +935,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 30,
         total: 405,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/parasect.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/parasect.gif",
+        audio: "https://pokemoncries.com/cries-old/47.mp3"
 
     },
     {
@@ -913,7 +955,8 @@ export const arrayPokemon = [
         spdef: 55,
         speed: 45,
         total: 305,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/venonat.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/venonat.gif",
+        audio: "https://pokemoncries.com/cries-old/48.mp3"
 
     },
     {
@@ -932,7 +975,8 @@ export const arrayPokemon = [
         spdef: 75,
         speed: 90,
         total: 450,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/venomoth.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/venomoth.gif",
+        audio: "https://pokemoncries.com/cries-old/49.mp3"
 
     },
     {
@@ -951,7 +995,8 @@ export const arrayPokemon = [
         spdef: 45,
         speed: 95,
         total: 265,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/diglett.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/diglett.gif",
+        audio: "https://pokemoncries.com/cries-old/50.mp3"
 
     },
     {
@@ -970,7 +1015,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 120,
         total: 425,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dugtrio.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dugtrio.gif",
+        audio: "https://pokemoncries.com/cries-old/51.mp3"
 
     },
     {
@@ -989,7 +1035,8 @@ export const arrayPokemon = [
         spdef: 40,
         speed: 90,
         total: 290,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/meowth.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/meowth.gif",
+        audio: "https://pokemoncries.com/cries-old/52.mp3"
 
     },
     {
@@ -1008,7 +1055,8 @@ export const arrayPokemon = [
         spdef: 65,
         speed: 115,
         total: 440,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/persian.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/persian.gif",
+        audio: "https://pokemoncries.com/cries-old/53.mp3"
 
     },
     {
@@ -1027,7 +1075,8 @@ export const arrayPokemon = [
         spdef: 50,
         speed: 55,
         total: 320,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/psyduck.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/psyduck.gif",
+        audio: "https://pokemoncries.com/cries-old/54.mp3"
 
     },
     {
@@ -1046,7 +1095,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 85,
         total: 500,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/golduck.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/golduck.gif",
+        audio: "https://pokemoncries.com/cries-old/55.mp3"
 
     },
     {
@@ -1065,7 +1115,8 @@ export const arrayPokemon = [
         spdef: 45,
         speed: 70,
         total: 305,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/mankey.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/mankey.gif",
+        audio: "https://pokemoncries.com/cries-old/56.mp3"
 
     },
     {
@@ -1084,7 +1135,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 95,
         total: 455,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/primeape.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/primeape.gif",
+        audio: "https://pokemoncries.com/cries-old/57.mp3"
 
     },
     {
@@ -1103,7 +1155,8 @@ export const arrayPokemon = [
         spdef: 50,
         speed: 60,
         total: 350,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/growlithe.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/growlithe.gif",
+        audio: "https://pokemoncries.com/cries-old/58.mp3"
 
     },
     {
@@ -1122,7 +1175,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 95,
         total: 555,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif",
+        audio: "https://pokemoncries.com/cries-old/59.mp3"
 
     },
     {
@@ -1141,7 +1195,8 @@ export const arrayPokemon = [
         spdef: 40,
         speed: 90,
         total: 300,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwag.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwag.gif",
+        audio: "https://pokemoncries.com/cries-old/60.mp3"
 
     },
     {
@@ -1160,7 +1215,8 @@ export const arrayPokemon = [
         spdef: 50,
         speed: 90,
         total: 385,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwhirl.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwhirl.gif",
+        audio: "https://pokemoncries.com/cries-old/61.mp3"
 
     },
     {
@@ -1179,7 +1235,8 @@ export const arrayPokemon = [
         spdef: 90,
         speed: 70,
         total: 510,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwrath.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwrath.gif",
+        audio: "https://pokemoncries.com/cries-old/62.mp3"
 
     },
     {
@@ -1198,7 +1255,8 @@ export const arrayPokemon = [
         spdef: 55,
         speed: 90,
         total: 310,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/abra.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/abra.gif",
+        audio: "https://pokemoncries.com/cries-old/63.mp3"
 
     },
     {
@@ -1217,7 +1275,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 105,
         total: 400,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kadabra.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kadabra.gif",
+        audio: "https://pokemoncries.com/cries-old/64.mp3"
 
     },
     {
@@ -1236,7 +1295,8 @@ export const arrayPokemon = [
         spdef: 95,
         speed: 120,
         total: 500,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/alakazam.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/alakazam.gif",
+        audio: "https://pokemoncries.com/cries-old/65.mp3"
 
     },
     {
@@ -1255,7 +1315,8 @@ export const arrayPokemon = [
         spdef: 35,
         speed: 35,
         total: 305,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/machop.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/machop.gif",
+        audio: "https://pokemoncries.com/cries-old/66.mp3",
 
     },
     {
@@ -1274,7 +1335,8 @@ export const arrayPokemon = [
         spdef: 60,
         speed: 45,
         total: 405,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/machoke.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/machoke.gif",
+        audio: "https://pokemoncries.com/cries-old/67.mp3"
 
     },
     {
@@ -1293,7 +1355,8 @@ export const arrayPokemon = [
         spdef: 85,
         speed: 55,
         total: 505,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/machamp.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/machamp.gif",
+        audio: "https://pokemoncries.com/cries-old/68.mp3"
 
     },
     {
@@ -1312,7 +1375,8 @@ export const arrayPokemon = [
         spdef: 30,
         speed: 40,
         total: 300,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/bellsprout.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/bellsprout.gif",
+        audio: "https://pokemoncries.com/cries-old/69.mp3"
 
     },
     {
@@ -1331,7 +1395,8 @@ export const arrayPokemon = [
         spdef: 45,
         speed: 55,
         total: 390,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/weepinbell.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/weepinbell.gif",
+        audio: "https://pokemoncries.com/cries-old/70.mp3"
 
     },
     {
@@ -1350,7 +1415,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 70,
         total: 490,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/victreebel.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/victreebel.gif",
+        audio: "https://pokemoncries.com/cries-old/71.mp3"
 
     },
     {
@@ -1369,7 +1435,8 @@ export const arrayPokemon = [
         spdef: 100,
         speed: 70,
         total: 335,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/tentacool.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/tentacool.gif",
+        audio: "https://pokemoncries.com/cries-old/72.mp3"
 
     },
     {
@@ -1388,7 +1455,8 @@ export const arrayPokemon = [
         spdef: 120,
         speed: 100,
         total: 515,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/tentacruel.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/tentacruel.gif",
+        audio: "https://pokemoncries.com/cries-old/73.mp3"
 
     },
     {
@@ -1407,7 +1475,8 @@ export const arrayPokemon = [
         spdef: 30,
         speed: 20,
         total: 300,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/geodude.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/geodude.gif",
+        audio: "https://pokemoncries.com/cries-old/74.mp3"
 
     },
     {
@@ -1426,7 +1495,8 @@ export const arrayPokemon = [
         spdef: 45,
         speed: 35,
         total: 390,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/graveler.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/graveler.gif",
+        audio: "https://pokemoncries.com/cries-old/75.mp3"
 
     },
     {
@@ -1445,7 +1515,9 @@ export const arrayPokemon = [
         spdef: 65,
         speed: 45,
         total: 495,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/golem.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/golem.gif",
+        audio: "https://pokemoncries.com/cries-old/76.mp3"
+
 
     },
     {
@@ -1464,7 +1536,8 @@ export const arrayPokemon = [
         spdef: 65,
         speed: 90,
         total: 410,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ponyta.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ponyta.gif",
+        audio: "https://pokemoncries.com/cries-old/77.mp3"
 
     },
     {
@@ -1483,7 +1556,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 105,
         total: 500,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/rapidash.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/rapidash.gif",
+        audio: "https://pokemoncries.com/cries-old/78.mp3"
 
     },
     {
@@ -1502,7 +1576,8 @@ export const arrayPokemon = [
         spdef: 40,
         speed: 15,
         total: 315,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/slowpoke.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/slowpoke.gif",
+        audio: "https://pokemoncries.com/cries-old/79.mp3"
 
     },
     {
@@ -1521,7 +1596,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 30,
         total: 490,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/slowbro.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/slowbro.gif",
+        audio: "https://pokemoncries.com/cries-old/80.mp3"
 
     },
     {
@@ -1540,7 +1616,8 @@ export const arrayPokemon = [
         spdef: 55,
         speed: 45,
         total: 325,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/magnemite.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/magnemite.gif",
+        audio: "https://pokemoncries.com/cries-old/81.mp3"
 
     },
     {
@@ -1559,7 +1636,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 70,
         total: 465,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/magneton.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/magneton.gif",
+        audio: "https://pokemoncries.com/cries-old/82.mp3"
 
     },
     {
@@ -1578,7 +1656,8 @@ export const arrayPokemon = [
         spdef: 62,
         speed: 60,
         total: 377,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/farfetchd.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/farfetchd.gif",
+        audio: "https://pokemoncries.com/cries-old/83.mp3"
 
     },
     {
@@ -1597,7 +1676,8 @@ export const arrayPokemon = [
         spdef: 35,
         speed: 75,
         total: 310,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/doduo.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/doduo.gif",
+        audio: "https://pokemoncries.com/cries-old/84.mp3"
 
     },
     {
@@ -1616,7 +1696,8 @@ export const arrayPokemon = [
         spdef: 60,
         speed: 110,
         total: 470,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dodrio.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dodrio.gif",
+        audio: "https://pokemoncries.com/cries-old/85.mp3"
 
     },
     {
@@ -1635,7 +1716,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 45,
         total: 325,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/seel.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/seel.gif",
+        audio: "https://pokemoncries.com/cries-old/86.mp3"
 
     },
     {
@@ -1654,7 +1736,8 @@ export const arrayPokemon = [
         spdef: 95,
         speed: 70,
         total: 475,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dewgong.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dewgong.gif",
+        audio: "https://pokemoncries.com/cries-old/87.mp3"
 
     },
     {
@@ -1673,7 +1756,8 @@ export const arrayPokemon = [
         spdef: 50,
         speed: 25,
         total: 325,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/grimer.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/grimer.gif",
+        audio: "https://pokemoncries.com/cries-old/88.mp3"
 
     },
     {
@@ -1692,7 +1776,8 @@ export const arrayPokemon = [
         spdef: 100,
         speed: 50,
         total: 500,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/muk.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/muk.gif",
+        audio: "https://pokemoncries.com/cries-old/89.mp3"
 
     },
     {
@@ -1711,7 +1796,8 @@ export const arrayPokemon = [
         spdef: 25,
         speed: 40,
         total: 305,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/shellder.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/shellder.gif",
+        audio: "https://pokemoncries.com/cries-old/90.mp3"
 
     },
     {
@@ -1730,7 +1816,8 @@ export const arrayPokemon = [
         spdef: 45,
         speed: 70,
         total: 525,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/cloyster.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/cloyster.gif",
+        audio: "https://pokemoncries.com/cries-old/91.mp3"
 
     },
     {
@@ -1749,7 +1836,8 @@ export const arrayPokemon = [
         spdef: 35,
         speed: 80,
         total: 310,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/gastly.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/gastly.gif",
+        audio: "https://pokemoncries.com/cries-old/92.mp3"
 
     },
     {
@@ -1768,7 +1856,8 @@ export const arrayPokemon = [
         spdef: 55,
         speed: 95,
         total: 405,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/haunter.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/haunter.gif",
+        audio: "https://pokemoncries.com/cries-old/93.mp3"
 
     },
     {
@@ -1787,7 +1876,8 @@ export const arrayPokemon = [
         spdef: 75,
         speed: 110,
         total: 500,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif",
+        audio: "https://pokemoncries.com/cries-old/94.mp3"
 
     },
     {
@@ -1806,7 +1896,8 @@ export const arrayPokemon = [
         spdef: 45,
         speed: 70,
         total: 385,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/onix.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/onix.gif",
+        audio: "https://pokemoncries.com/cries-old/95.mp3"
 
     },
     {
@@ -1825,7 +1916,8 @@ export const arrayPokemon = [
         spdef: 90,
         speed: 42,
         total: 328,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/drowzee.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/drowzee.gif",
+        audio: "https://pokemoncries.com/cries-old/96.mp3"
 
     },
     {
@@ -1844,7 +1936,8 @@ export const arrayPokemon = [
         spdef: 115,
         speed: 67,
         total: 483,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/hypno.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/hypno.gif",
+        audio: "https://pokemoncries.com/cries-old/97.mp3"
 
     },
     {
@@ -1863,7 +1956,8 @@ export const arrayPokemon = [
         spdef: 25,
         speed: 50,
         total: 325,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/krabby.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/krabby.gif",
+        audio: "https://pokemoncries.com/cries-old/98.mp3"
 
     },
     {
@@ -1882,7 +1976,8 @@ export const arrayPokemon = [
         spdef: 50,
         speed: 75,
         total: 475,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kingler.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kingler.gif",
+        audio: "https://pokemoncries.com/cries-old/99.mp3"
 
     },
     {
@@ -1901,7 +1996,8 @@ export const arrayPokemon = [
         spdef: 55,
         speed: 100,
         total: 330,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/voltorb.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/voltorb.gif",
+        audio: "https://pokemoncries.com/cries-old/100.mp3"
 
     },
     {
@@ -1920,7 +2016,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 150,
         total: 490,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/electrode.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/electrode.gif",
+        audio: "https://pokemoncries.com/cries-old/101.mp3"
 
     },
     {
@@ -1939,7 +2036,8 @@ export const arrayPokemon = [
         spdef: 45,
         speed: 40,
         total: 325,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggcute.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggcute.gif",
+        audio: "https://pokemoncries.com/cries-old/102.mp3"
 
     },
     {
@@ -1958,7 +2056,8 @@ export const arrayPokemon = [
         spdef: 75,
         speed: 55,
         total: 530,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggutor.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggutor.gif",
+        audio: "https://pokemoncries.com/cries-old/103.mp3"
 
     },
     {
@@ -1977,7 +2076,8 @@ export const arrayPokemon = [
         spdef: 50,
         speed: 35,
         total: 320,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/cubone.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/cubone.gif",
+        audio: "https://pokemoncries.com/cries-old/104.mp3"
 
     },
     {
@@ -1996,7 +2096,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 45,
         total: 425,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/marowak.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/marowak.gif",
+        audio: "https://pokemoncries.com/cries-old/105.mp3"
 
     },
     {
@@ -2015,7 +2116,8 @@ export const arrayPokemon = [
         spdef: 110,
         speed: 87,
         total: 455,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonlee.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonlee.gif",
+        audio: "https://pokemoncries.com/cries-old/106.mp3"
 
     },
     {
@@ -2034,7 +2136,8 @@ export const arrayPokemon = [
         spdef: 110,
         speed: 76,
         total: 455,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonchan.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonchan.gif",
+        audio: "https://pokemoncries.com/cries-old/107.mp3"
 
     },
     {
@@ -2053,7 +2156,8 @@ export const arrayPokemon = [
         spdef: 75,
         speed: 30,
         total: 385,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/lickitung.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/lickitung.gif",
+        audio: "https://pokemoncries.com/cries-old/108.mp3"
 
     },
     {
@@ -2072,7 +2176,8 @@ export const arrayPokemon = [
         spdef: 45,
         speed: 35,
         total: 340,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/koffing.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/koffing.gif",
+        audio: "https://pokemoncries.com/cries-old/109.mp3"
 
     },
     {
@@ -2091,7 +2196,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 60,
         total: 490,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/weezing.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/weezing.gif",
+        audio: "https://pokemoncries.com/cries-old/110.mp3"
 
     },
     {
@@ -2110,7 +2216,8 @@ export const arrayPokemon = [
         spdef: 30,
         speed: 25,
         total: 345,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/rhyhorn.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/rhyhorn.gif",
+        audio: "https://pokemoncries.com/cries-old/111.mp3"
 
     },
     {
@@ -2129,7 +2236,8 @@ export const arrayPokemon = [
         spdef: 45,
         speed: 40,
         total: 485,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/rhydon.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/rhydon.gif",
+        audio: "https://pokemoncries.com/cries-old/112.mp3"
 
     },
     {
@@ -2148,7 +2256,8 @@ export const arrayPokemon = [
         spdef: 105,
         speed: 50,
         total: 450,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/chansey.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/chansey.gif",
+        audio: "https://pokemoncries.com/cries-old/113.mp3"
 
     },
     {
@@ -2167,7 +2276,8 @@ export const arrayPokemon = [
         spdef: 40,
         speed: 60,
         total: 435,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/tangela.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/tangela.gif",
+        audio: "https://pokemoncries.com/cries-old/114.mp3"
 
     },
     {
@@ -2186,7 +2296,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 90,
         total: 490,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kangaskhan.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kangaskhan.gif",
+        audio: "https://pokemoncries.com/cries-old/115.mp3"
 
     },
     {
@@ -2205,7 +2316,8 @@ export const arrayPokemon = [
         spdef: 25,
         speed: 60,
         total: 295,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/horsea.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/horsea.gif",
+        audio: "https://pokemoncries.com/cries-old/116.mp3"
 
     },
     {
@@ -2224,7 +2336,8 @@ export const arrayPokemon = [
         spdef: 45,
         speed: 85,
         total: 440,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/seadra.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/seadra.gif",
+        audio: "https://pokemoncries.com/cries-old/117.mp3"
 
     },
     {
@@ -2243,7 +2356,8 @@ export const arrayPokemon = [
         spdef: 50,
         speed: 63,
         total: 320,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/goldeen.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/goldeen.gif",
+        audio: "https://pokemoncries.com/cries-old/118.mp3"
 
     },
     {
@@ -2262,7 +2376,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 68,
         total: 450,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/seaking.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/seaking.gif",
+        audio: "https://pokemoncries.com/cries-old/119.mp3"
 
     },
     {
@@ -2281,7 +2396,8 @@ export const arrayPokemon = [
         spdef: 55,
         speed: 85,
         total: 340,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/staryu.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/staryu.gif",
+        audio: "https://pokemoncries.com/cries-old/120.mp3"
 
     },
     {
@@ -2300,7 +2416,8 @@ export const arrayPokemon = [
         spdef: 85,
         speed: 115,
         total: 520,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/starmie.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/starmie.gif",
+        audio: "https://pokemoncries.com/cries-old/121.mp3"
 
     },
     {
@@ -2319,7 +2436,8 @@ export const arrayPokemon = [
         spdef: 120,
         speed: 90,
         total: 460,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/mr-mime.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/mr-mime.gif",
+        audio: "https://pokemoncries.com/cries-old/122.mp3"
 
     },
     {
@@ -2338,7 +2456,8 @@ export const arrayPokemon = [
         spdef: 80,
         speed: 105,
         total: 500,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/scyther.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/scyther.gif",
+        audio: "https://pokemoncries.com/cries-old/123.mp3"
 
     },
     {
@@ -2357,7 +2476,8 @@ export const arrayPokemon = [
         spdef: 95,
         speed: 95,
         total: 455,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/jynx.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/jynx.gif",
+        audio: "https://pokemoncries.com/cries-old/124.mp3"
 
     },
     {
@@ -2376,7 +2496,8 @@ export const arrayPokemon = [
         spdef: 85,
         speed: 105,
         total: 490,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/electabuzz.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/electabuzz.gif",
+        audio: "https://pokemoncries.com/cries-old/125.mp3"
 
     },
     {
@@ -2395,7 +2516,8 @@ export const arrayPokemon = [
         spdef: 85,
         speed: 93,
         total: 495,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/magmar.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/magmar.gif",
+        audio: "https://pokemoncries.com/cries-old/126.mp3"
 
     },
     {
@@ -2414,7 +2536,9 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 85,
         total: 500,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pinsir.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/pinsir.gif",
+        audio: "https://pokemoncries.com/cries-old/127.mp3"
+
 
     },
     {
@@ -2433,7 +2557,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 110,
         total: 490,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/tauros.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/tauros.gif",
+        audio: "https://pokemoncries.com/cries-old/128.mp3"
 
     },
     {
@@ -2452,7 +2577,8 @@ export const arrayPokemon = [
         spdef: 20,
         speed: 80,
         total: 200,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/magikarp.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/magikarp.gif",
+        audio: "https://pokemoncries.com/cries-old/129.mp3"
 
     },
     {
@@ -2471,7 +2597,8 @@ export const arrayPokemon = [
         spdef: 100,
         speed: 81,
         total: 540,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif",
+        audio: "https://pokemoncries.com/cries-old/130.mp3"
 
     },
     {
@@ -2490,7 +2617,8 @@ export const arrayPokemon = [
         spdef: 95,
         speed: 60,
         total: 535,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/lapras.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/lapras.gif",
+        audio: "https://pokemoncries.com/cries-old/131.mp3"
 
     },
     {
@@ -2509,7 +2637,8 @@ export const arrayPokemon = [
         spdef: 48,
         speed: 48,
         total: 288,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ditto.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/ditto.gif",
+        audio: "https://pokemoncries.com/cries-old/132.mp3"
 
     },
     {
@@ -2528,7 +2657,8 @@ export const arrayPokemon = [
         spdef: 65,
         speed: 55,
         total: 325,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/eevee.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/eevee.gif",
+        audio: "https://pokemoncries.com/cries-old/133.mp3"
 
     },
     {
@@ -2547,7 +2677,8 @@ export const arrayPokemon = [
         spdef: 95,
         speed: 65,
         total: 525,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/vaporeon.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/vaporeon.gif",
+        audio: "https://pokemoncries.com/cries-old/134.mp3"
 
     },
     {
@@ -2566,7 +2697,8 @@ export const arrayPokemon = [
         spdef: 95,
         speed: 130,
         total: 525,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/jolteon.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/jolteon.gif",
+        audio: "https://pokemoncries.com/cries-old/135.mp3"
 
     },
     {
@@ -2585,7 +2717,8 @@ export const arrayPokemon = [
         spdef: 110,
         speed: 65,
         total: 525,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/flareon.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/flareon.gif",
+        audio: "https://pokemoncries.com/cries-old/136.mp3"
 
     },
     {
@@ -2604,7 +2737,8 @@ export const arrayPokemon = [
         spdef: 75,
         speed: 40,
         total: 395,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/porygon.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/porygon.gif",
+        audio: "https://pokemoncries.com/cries-old/137.mp3"
 
     },
     {
@@ -2623,7 +2757,8 @@ export const arrayPokemon = [
         spdef: 55,
         speed: 35,
         total: 355,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/omanyte.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/omanyte.gif",
+        audio: "https://pokemoncries.com/cries-old/138.mp3"
 
     },
     {
@@ -2642,7 +2777,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 55,
         total: 495,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/omastar.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/omastar.gif",
+        audio: "https://pokemoncries.com/cries-old/139.mp3"
 
     },
     {
@@ -2661,7 +2797,8 @@ export const arrayPokemon = [
         spdef: 45,
         speed: 55,
         total: 355,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kabuto.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kabuto.gif",
+        audio: "https://pokemoncries.com/cries-old/140.mp3"
 
     },
     {
@@ -2680,7 +2817,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 80,
         total: 495,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kabutops.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/kabutops.gif",
+        audio: "https://pokemoncries.com/cries-old/141.mp3"
 
     },
     {
@@ -2699,7 +2837,8 @@ export const arrayPokemon = [
         spdef: 75,
         speed: 130,
         total: 515,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/aerodactyl.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/aerodactyl.gif",
+        audio: "https://pokemoncries.com/cries-old/142.mp3"
 
     },
     {
@@ -2718,7 +2857,8 @@ export const arrayPokemon = [
         spdef: 110,
         speed: 30,
         total: 540,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/snorlax.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/snorlax.gif",
+        audio: "https://pokemoncries.com/cries-old/143.mp3"
 
     },
     {
@@ -2737,7 +2877,8 @@ export const arrayPokemon = [
         spdef: 125,
         speed: 85,
         total: 580,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/articuno.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/articuno.gif",
+        audio: "https://pokemoncries.com/cries-old/144.mp3"
 
     },
     {
@@ -2756,7 +2897,8 @@ export const arrayPokemon = [
         spdef: 90,
         speed: 100,
         total: 580,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/zapdos.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/zapdos.gif",
+        audio: "https://pokemoncries.com/cries-old/145.mp3"
 
     },
     {
@@ -2775,7 +2917,8 @@ export const arrayPokemon = [
         spdef: 85,
         speed: 90,
         total: 580,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/moltres.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/moltres.gif",
+        audio: "https://pokemoncries.com/cries-old/146.mp3"
 
     },
     {
@@ -2794,7 +2937,8 @@ export const arrayPokemon = [
         spdef: 50,
         speed: 50,
         total: 300,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dratini.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dratini.gif",
+        audio: "https://pokemoncries.com/cries-old/147.mp3"
 
     },
     {
@@ -2813,7 +2957,8 @@ export const arrayPokemon = [
         spdef: 70,
         speed: 70,
         total: 420,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dragonair.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dragonair.gif",
+        audio: "https://pokemoncries.com/cries-old/148.mp3"
 
     },
     {
@@ -2832,7 +2977,8 @@ export const arrayPokemon = [
         spdef: 100,
         speed: 80,
         total: 600,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dragonite.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/dragonite.gif",
+        audio: "https://pokemoncries.com/cries-old/149.mp3"
 
     },
     {
@@ -2851,7 +2997,8 @@ export const arrayPokemon = [
         spdef: 90,
         speed: 130,
         total: 680,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/mewtwo.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/mewtwo.gif",
+        audio: "https://pokemoncries.com/cries-old/150.mp3"
 
     },
     {
@@ -2870,7 +3017,8 @@ export const arrayPokemon = [
         spdef: 100,
         speed: 100,
         total: 600,
-        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/mew.gif"
+        gif: "https://img.pokemondb.net/sprites/black-white/anim/normal/mew.gif",
+        audio: "https://pokemoncries.com/cries-old/151.mp3"
 
     },
 ];
