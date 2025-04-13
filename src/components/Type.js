@@ -1,7 +1,10 @@
 import React from 'react'
+import { arrayTypes } from '../assets/database/arrayTypes';
+import { Link } from 'react-router-dom';
 
-const Type = ({ type }) => {
-  const newButton = type.split("/");
+const Type = ({ type, id }) => {
+  const newButton = type.split("/"); 
+//   console.log(type);
 
   let backGround = "";
   let rgbType = [];
@@ -70,13 +73,14 @@ const Type = ({ type }) => {
   })
 
   
-  return (
+  return (  
     <>
-    <div className='Type'>
-      <div style={{backgroundColor:`${rgbType[0]}`}} className="ButtonType">{newButton[0]}</div>
-
-      {newButton.length === 2 ? <div style={{backgroundColor: rgbType[1]}} className="ButtonType">{newButton[1]}</div> : ''}
-    </div>
+    <Link to={"/tipo/" + id}>
+        <div className={`Type Type${id}`}>
+            <div key={id} style={{backgroundColor:`${rgbType[0]}`}} className="ButtonType">{newButton[0]}</div>
+            {newButton.length === 2 ? <div style={{backgroundColor: rgbType[1]}} className="ButtonType">{newButton[1]}</div> : ''}
+        </div>
+    </Link>
     </>
   )
 }

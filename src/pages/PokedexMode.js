@@ -9,7 +9,7 @@ export const PokedexMode = () => {
   let [ currentBg, setCurrentBg] = useState(arrayTypes.find(el => el.type === "Grama").img)
 
   let audioRef = useRef(null);
-  console.log(audioRef)
+  // console.log(audioRef)
 
   let audioPokemon = () => {
     if (audioRef.current) {
