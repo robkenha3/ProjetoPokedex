@@ -121,18 +121,8 @@ a {
   position: absolute;
   width: 20%;
   transform: scaleX(-1) rotate(-60deg);
-  right: 6%;
+  right: 7%;
   top: 250px;
-  z-index: 0;
-
-}
-
-.ItemListPokemon > img:nth-of-type(3) {
-  position: absolute;
-  width: 29%;
-  transform: scaleX(-1) rotate(37deg);
-  left: 5%;
-  top: 570px;
   z-index: 0;
 
 }
@@ -208,6 +198,10 @@ a {
   color: white;
   border: 1px solid #737373;
   border-color: rgba(0, 0, 0, 0.15);
+}
+
+.ButtonType:hover {
+  cursor: pointer;
 }
 
 .PokemonBody__base-stats-container {
@@ -494,15 +488,16 @@ td {
   align-content: center;
 }
 
-.TypePage__grid > a > div > div{
+.TypePage__grid > div > div{
   position: relative;
   width: 6em;
   text-align: center;
   z-index: 1;
 }
 
-.TypePage__grid > a > div > div:hover{
+.TypePage__grid > div > div:hover{
   opacity: 0.9;
+  cursor: pointer;
 }
 
 .TypePage__background {

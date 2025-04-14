@@ -3,6 +3,7 @@ import { useParams } from 'react-router'
 import { PokemonBody}  from '../components/PokemonBody'
 import { arrayPokemon } from '../assets/database/pokemon151.js'
 
+
 export const Pokemon = () => {
     const { id } = useParams();
 

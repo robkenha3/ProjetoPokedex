@@ -16,7 +16,7 @@ export const DisplayPokedex = ({ currentPokemon, id, name, type, hp, attack, def
 
             <div className="DisplayPokedex__type-stats-container">
                 <div className="DisplayPokedex__type-container">
-                    <Type type={type} id={id}/>
+                    <Type type={type} />
                 </div>
 
                 <div className="DisplayPokedex__stats-bar-container">

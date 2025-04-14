@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import PokemonStatsBar from './PokemonStatsBar';
-import { arrayTypes } from '../assets/database/arrayTypes';
 import Type from './Type';
 
 export const PokemonBody = ({ id, name, sprites, type, species, height, weight, nextId, backId, nextName, backName, hp, attack, defense, spatk, spdef, speed, total }) => {
+    let typeArray = type.split("/");
+
     return (
         <div className='PokemonBody'>
             <div className='PokemonBody__header'>
@@ -29,7 +30,8 @@ export const PokemonBody = ({ id, name, sprites, type, species, height, weight, 
                     <hr/>
 
                     <div>    
-                        <b>Tipo</b><Type type={type} id={arrayTypes.map(el => el.id)}/>
+                        <b>Tipo</b>
+                        <Type type={type} />
                     </div>
 
                     <hr/>

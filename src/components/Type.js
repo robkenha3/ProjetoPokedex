@@ -1,10 +1,20 @@
 import React from 'react'
-import { arrayTypes } from '../assets/database/arrayTypes';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Type = ({ type, id }) => {
-  const newButton = type.split("/"); 
-//   console.log(type);
+  const navigate = useNavigate();
+
+  const newButton = type.split("/");
+  const type1 = newButton[0];
+  const type2 = newButton[1] 
+
+  const firstButton = () => {
+    navigate("/tipo/" + type1)
+  }
+
+  const secondButton = () => {
+    navigate("/tipo/" + type2)
+  }
 
   let backGround = "";
   let rgbType = [];
@@ -75,12 +85,11 @@ const Type = ({ type, id }) => {
   
   return (  
     <>
-    <Link to={"/tipo/" + id}>
         <div className={`Type Type${id}`}>
-            <div key={id} style={{backgroundColor:`${rgbType[0]}`}} className="ButtonType">{newButton[0]}</div>
-            {newButton.length === 2 ? <div style={{backgroundColor: rgbType[1]}} className="ButtonType">{newButton[1]}</div> : ''}
+            <div key={id} style={{backgroundColor:`${rgbType[0]}`}} className="ButtonType" onClick={firstButton}>{newButton[0]}</div>
+
+            {newButton.length === 2 ? <div style={{backgroundColor: rgbType[1]}} className="ButtonType" onClick={secondButton}>{newButton[1]}</div> : ''}
         </div>
-    </Link>
     </>
   )
 }

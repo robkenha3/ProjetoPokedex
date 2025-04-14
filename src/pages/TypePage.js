@@ -4,7 +4,7 @@ import { arrayTypes } from '../assets/database/arrayTypes'
 import BackgroundType  from "../assets/Images/type.png"
 
 const TypePage = () => {
-
+  
 
   return (
     <div className="TypePage">

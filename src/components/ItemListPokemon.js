@@ -15,7 +15,6 @@ export const ItemListPokemon = () => {
             <h2>Geração 1</h2>
             <br/>
             <img src={PikachuHi}/>
-            <img src={SchyterHi}/>
 
             <div className='ItemListPokemon__conteiner'>
                 {arrayPokemon.map((el) => {
