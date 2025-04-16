@@ -109,7 +109,7 @@ a {
   display: flex;
   flex-direction: column;
   background-color: beige;
-  height: auto;
+  /* height: auto; */
   width: auto;
   justify-content: center;
   align-items: center;
@@ -137,6 +137,7 @@ a {
   width: 60vw;
   height: auto;
   z-index: 1;
+
 }
 
 .ItemPokemon {
@@ -521,19 +522,59 @@ td {
   animation-iteration-count: infinite;
 }
 
+.TypePageTypes {
+  height: 100%;
+  background-color: beige;
+
+}
+
+.TypePageTypes__container {
+  display: flex;
+}
+
+.TypePageTypes__description {
+  width: 50%
+}
+
+.TypePageTypes__type-filter {
+  height: 10%;
+}
+
+.ItemListPokemonFilter {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.ItemListPokemonFilter__conteiner {
+  display: grid;
+  grid-template-columns: repeat(1, 10%);
+  align-content: start;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px groove gray;
+  width: 60vw;
+  height: auto;
+  z-index: 1;
+}
+
 @keyframes TypesRotate {
   0% {
-    /* transform: rotate(0deg); */
-    transform: scaleX(1);
+    transform: rotate(0deg);
+    /* transform: scaleX(1); */
   }
 
-  50% {
-    /* transform: rotate(360deg); */
+  /* 50% {
+    transform: rotate(360deg);
     transform: scaleX(-1);
-  }
+  } */
 
   100% {
-    transform: scaleX(1);
+    transform: rotate(360deg);
+    /* transform: scaleX(1); */
   }
 }
 

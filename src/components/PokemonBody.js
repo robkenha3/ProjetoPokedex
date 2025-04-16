@@ -4,7 +4,6 @@ import PokemonStatsBar from './PokemonStatsBar';
 import Type from './Type';
 
 export const PokemonBody = ({ id, name, sprites, type, species, height, weight, nextId, backId, nextName, backName, hp, attack, defense, spatk, spdef, speed, total }) => {
-    let typeArray = type.split("/");
 
     return (
         <div className='PokemonBody'>

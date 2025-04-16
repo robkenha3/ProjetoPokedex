@@ -6,6 +6,7 @@ import { Pokemon } from './pages/Pokemon.js'
 import { Footer } from './components/Footer.js';
 import { PokedexMode } from './pages/PokedexMode.js';
 import TypePage from "./pages/TypePage.js"
+import TypePageTypes from './pages/TypePageTypes.js';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <Route path="/gen1/:id" element={<Pokemon />}/>
       <Route path="/pokédex/" element={<PokedexMode />}/>
       <Route path="/tipo" element={<TypePage />}/>
-      <Route path="/tipo:tipo" element={<TypePage />}/>
+      <Route path="/tipo/:tipo" element={<TypePageTypes />}/>
       {/* <ItemListPokemon /> */} 
     </Routes>
 
