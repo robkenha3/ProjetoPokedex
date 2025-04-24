@@ -533,6 +533,19 @@ td {
 
 }
 
+.TypePageTypes__bar-color-top {
+  position: absolute;
+  height: 120px;
+  width: 100%;
+}
+
+.TypePageTypes__bar-color-bottom {
+  position: relative;
+  /* bottom: 50px; */
+  height: 50px;
+  width: 100%;
+}
+
 .TypePageTypes__container {
   display: flex;
   flex-direction: column;
@@ -578,7 +591,7 @@ td {
 .TypePageTypes__type-filter {
   background-color: #C5BABA;
   position: relative;
-  width: 70%;
+  width: 75%;
   margin: auto;
   border-radius: 10px;
   bottom: 40px;
@@ -591,7 +604,7 @@ td {
 
 .ItemListPokemonFilter__conteiner {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   align-items: center;
   gap: 20px;
   /* background-color: white; */
@@ -600,7 +613,6 @@ td {
   /* width: 20%; */
   /* height: 100px; */
   z-index: 1;
-  mix-blend-mode: multiply;
   /* margin: auto; */
 
 }
@@ -610,10 +622,11 @@ span {
 }
 
 .PokemonCards > a > img {
-  position: relative;
   width: 100%;
   border-radius: 10px;
   padding: 10px;
+  mix-blend-mode: multiply;
+
   /* background-color: #9f9f9f; */
 
 }

@@ -12,10 +12,30 @@ const TypePageTypes = () => {
   // const pokemonCurrentType = pokemonTypes.filter((el,i) => {return el[i] === currentType})
   // console.log(pokemonCurrentType)
 
+  const colorTypeBar = {
+    "Normal": ["#8C8662", "#AEA77B"],
+    "Fogo": ["#C53626", "#F84330"],
+    "Água": ["#1187B7", "#15A9E5"],
+    "Elétrico": ["#CBB929", "#FFE733"],
+    "Grama": ["#67991C", "#81C124"],
+    "Gelo": ["#73ACBF", "#90D7ED"],
+    "Lutador": ["#C65617", "#F86B1C"],
+    "Veneno": ["#6e4259", "#89526f"],
+    "Terra": ["#957858", "#C2A587"],
+    "Voador": ["#159abd", "#20c2f1"],
+    "Psíquico": ["#60396E", "#784A8B"],
+    "Inseto": ["#1f5c30", "#267639"],
+    "Pedra": ["#584F48", "#6E645A"],
+    "Fantasma": ["#5D49B8", "#7D6CDC"],
+    "Dragão": ["#a0892c", "#C6AB38"],
+    "Fada": ["#be407f", "#ee4f9f"],
+  }
+
   const pageType = arrayTypes.find(el => el.type === currentType.tipo);
 
   return (
-    <div className='TypePageTypes'>
+    <div className='TypePageTypes' style={{backgroundColor: colorTypeBar[currentType.tipo][1]}}>
+        <div className='TypePageTypes__bar-color-top' style={{backgroundColor: colorTypeBar[currentType.tipo][0]}}></div>
         <div className="TypePageTypes__container">
           <div className='TypePageTypes__description'>
             <div>
@@ -119,9 +139,10 @@ const TypePageTypes = () => {
           <div className="TypePageTypes__type-filter">
             <ItemListPokemonFilter currentParams={currentType.tipo}/>
           </div>
+          
 
         </div>
-
+        <div className='TypePageTypes__bar-color-bottom' style={{backgroundColor: colorTypeBar[currentType.tipo][0]}}></div>
 
 
     </div>
