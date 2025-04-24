@@ -73,7 +73,7 @@ export const arrayTypes = [
         type: "Gelo",
         img: "/assets/img/backgrounds/background-ice.png",
         attackProsCons: {
-            superEffective: ["Grama", "Terro", "Voador", "Dragão"],
+            superEffective: ["Grama", "Terra", "Voador", "Dragão"],
             notVeryEffective: ["Fogo", "Água", "Gelo", "Ferro"],
         },
         defenseProsCons: {
@@ -162,7 +162,7 @@ export const arrayTypes = [
         img: "/assets/img/backgrounds/background-grass.jpeg",
         attackProsCons: {
             superEffective: ["Grama", "Psíquico", "Escuridão"],
-            notVeryEffective: ["Fogo", "Lutador", "Veneno", "Voador", "Fanstasma", "Ferro", "Fada"],
+            notVeryEffective: ["Fogo", "Lutador", "Veneno", "Voador", "Fantasma", "Ferro", "Fada"],
         },
         defenseProsCons: {
             notVeryEffective: ["Grama", "Lutador", "Terra"],

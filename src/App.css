@@ -113,7 +113,6 @@ a {
   display: flex;
   flex-direction: column;
   background-color: beige;
-  /* height: auto; */
   width: auto;
   justify-content: center;
   align-items: center;
@@ -270,12 +269,13 @@ td {
 
 .Footer {
   display: flex;
+  position: relative;
   height: 100px;
   width: auto;
   background: linear-gradient(to top, rgb(21, 21, 21), rgb(68, 67, 67), rgb(109, 108, 108));
   align-items: center;
   justify-content: space-around;
-  color:aliceblue;
+  color: aliceblue;
 
 }
 
@@ -309,6 +309,7 @@ td {
 
 .PokedexMode__container {
   position: relative;
+  min-height: 100vh;
 }
 
 .PokedexMode__background {
@@ -527,58 +528,105 @@ td {
 }
 
 .TypePageTypes {
-  height: 100vh;
-  background-color: beige;
+  min-height: 100vh;
+  background-color: #f5f5dc;
 
 }
 
 .TypePageTypes__container {
   display: flex;
-  height: 100%
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 130px;
+  /* min-height: 100vh; */
+  /* flex: 1; */
+  /* height: 100% */
 
 }
 
 .TypePageTypes__description {
   display: flex;
   position: relative;
-  left: 1%;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 50%;
+  gap: 20px;
+  top: 40px;
+  padding: 30px;
+  justify-content: space-between;
+  align-content: center;
+  width: 85%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #C5BABA;
 
 }
 
 .TypePageTypes__description-atk {
   position: relative;
-  bottom: 6px;
+  /* bottom: 6%; */
+}
+
+.TypePageTypes__description-atk > div {
+  display: flex;
+  flex-direction: column;
+
 }
 
 .TypePageTypes__description-def {
   position: relative;
-  bottom: 6px;
+  /* bottom: 6%; */
 }
 
 .TypePageTypes__type-filter {
-  height: 10%;
+  background-color: #C5BABA;
+  position: relative;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+  bottom: 40px;
 }
 
 .ItemListPokemonFilter {
   position: relative;
-  left: 100px;
-  top: 10px;
+  border-radius: 10px;
 }
 
 .ItemListPokemonFilter__conteiner {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: start;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  gap: 20px;
   /* background-color: white; */
-  border-radius: 10px;
+  /* border-radius: 10px; */
   /* border: 2px groove gray; */
-  width: 40vw;
-  height: auto;
+  /* width: 20%; */
+  /* height: 100px; */
   z-index: 1;
   mix-blend-mode: multiply;
+  /* margin: auto; */
+
+}
+
+span {
+  color: #db092c;
+}
+
+.PokemonCards > a > img {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  /* background-color: #9f9f9f; */
+
+}
+
+.PokemonCards > a > img:hover {
+  background-color: rgb(213, 210, 210);
+
+}
+
+.PokemonCards__description {
+  background-color: #cbc9c9;
+  border-radius: 10px;
+  text-align: center;
 }
 
 @keyframes TypesRotate {

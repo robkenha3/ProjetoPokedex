@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import { ItemPokemon } from './ItemPokemon.js'
 import { arrayPokemon } from '../assets/database/pokemon151.js'
+import PokemonCards from './PokemonCards.js'
 
 
 export const ItemListPokemonFilter = ({ currentParams }) => {
@@ -34,7 +35,7 @@ export const ItemListPokemonFilter = ({ currentParams }) => {
 
             <div className='ItemListPokemonFilter__conteiner'>
                 {FilteredPokemon.map(el => {
-                    return <ItemPokemon 
+                    return <PokemonCards 
                         key={el.id}
                         id={el.id}
                         name={el.name}
