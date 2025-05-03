@@ -1,4 +1,7 @@
-export const arrayPokemon = [
+import { arrayPokemon } from "../../api/api.js";
+export { arrayPokemon };
+
+/*export const arrayPokemon = [
     {
         id: '0001',
         name: 'Bulbasauro',
@@ -3021,4 +3024,4 @@ export const arrayPokemon = [
         audio: "https://pokemoncries.com/cries-old/151.mp3"
 
     },
-];
+];*/
