@@ -1,5 +1,5 @@
 import React from 'react'
-import { ItemListPokemon } from '../components/ItemListPokemon.js'
+import { ItemListPokemonRandom } from '../components/ItemListPokemonRandom.js'
 import ItemListPokemonHeader from '../components/ItemListPokemonHeader.js'
 
 const Home = () => {
@@ -7,8 +7,9 @@ const Home = () => {
     <>
       <div className="ItemListPokemon">
         <ItemListPokemonHeader />
+        <br/>
       </div>
-      <ItemListPokemon />
+      <ItemListPokemonRandom />
     </>
   )
 }

@@ -3,12 +3,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
   /* width: 100%; */
 }
 
 html, body {
   height: 100%;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 a {
@@ -22,8 +25,8 @@ a {
   height: 120px;
   width: auto;
   border-bottom: 8px groove gray;
-  gap:150px;
-  overflow-y: hidden;
+  gap: 150px;
+  /* overflow-x: hidden; */
 } 
 
 .Header__circle-container {
@@ -56,7 +59,8 @@ a {
 
 .Header__menu {
   display: flex;
-  overflow: hidden;
+  position: relative;
+  overflow: visible;
 
 }
 
@@ -97,7 +101,7 @@ a {
   height: 75px;
 }
 
-.Header__menu-option a > div{
+.Header__menu-option a > div, .Header__gen{
   background: linear-gradient(to top, rgb(255, 203, 5), rgb(250, 206, 32));
   border: 5px groove rgb(56, 95, 172);
   width: 125px;
@@ -107,6 +111,40 @@ a {
   color: black;
   text-shadow: 0 0 1px white ;
   box-shadow: 3px 3px 3px 2px black;
+  display: block;
+}
+
+.Header__gen-megamenu--hover:hover + div, .Header__gen--hover:hover {
+  display: flex;
+  position: absolute;
+  width: auto;
+  gap: 15px;
+  background: linear-gradient(to top, rgb(255, 203, 5), rgb(250, 206, 32));
+  border: 5px groove rgb(56, 95, 172);
+  text-align: center;
+  padding: 8px;
+  border-radius: 16px;
+  color: black;
+  text-shadow: 0 0 1px white ;
+  box-shadow: 3px 3px 3px 2px black;
+}
+
+.Header__gen-megamenu > a + div {
+  display: none;
+}
+
+.Header__gens {
+  text-decoration: none;
+  color: black;
+  text-align: center; 
+  /* border-right: 1px solid black; */
+  padding: 8px;
+}
+
+.Header__gen--hover-separator {
+  width: 2px;
+  height: 35px;
+  background-color: black;
 }
 
 .ItemListPokemon {

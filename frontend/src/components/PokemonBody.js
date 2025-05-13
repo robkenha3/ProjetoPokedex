@@ -13,7 +13,7 @@ export const PokemonBody = ({ id, name, sprites, type, species, height, weight, 
                 </Link>
                 <h1>{name}</h1>
                 <Link to={'/gen1/' + nextId}>
-                    {nextId === '' ? console.log("erro") : <button>{nextName}</button>}
+                    {nextId === '' ? console.log("Erro") : <button>{nextName}</button>}
                 </Link>
             </div>
             <hr/>

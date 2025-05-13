@@ -8,4 +8,3 @@ export const arrayPokemon = responsePokemon.data;
 export const arrayTypes = responseTypes.data;
 
 // console.log(responseTypes)
-

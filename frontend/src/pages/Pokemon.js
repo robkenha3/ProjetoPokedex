@@ -14,11 +14,15 @@ export const Pokemon = () => {
     let backId = (Number(id) - 1).toString().padStart(4, '0');
     let nextName = '';
     let backName = '';
+    // const lastIndexPokemon = arrayPokemon.length -1 ;
+    // console.log(arrayPokemon[lastIndexPokemon])
+    // console.log(nextId)
 
     for(let poke of arrayPokemon) {
         if(poke.id === nextId) {
             nextName = poke.name;
-        }else if(nextId === '0152') {
+            
+        }else if(nextId === '0200') {
             nextId = '';
         }
         if(poke.id === backId) {
@@ -27,7 +31,7 @@ export const Pokemon = () => {
             backId = '';
         }
     }
-    // console.log(nextName);
+    console.log(nextId);
     // console.log(backName);
         
 

@@ -7,9 +7,8 @@ const ItemListPokemonHeader = () => {
   return (
     <>
         <img className="logo" src={Logo} alt="Logo Pokémon"></img>
-        <h2>Geração 1</h2>
-        <br/>
-        <img src={PikachuHi}/>
+        {/* <h2>Geração 1</h2> */}
+        {/* <img src={PikachuHi}/> */}
     </>
   )
 }
