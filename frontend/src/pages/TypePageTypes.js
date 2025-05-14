@@ -28,6 +28,8 @@ const TypePageTypes = () => {
     "Pedra": ["#584F48", "#6E645A"],
     "Fantasma": ["#5D49B8", "#7D6CDC"],
     "Dragão": ["#a0892c", "#C6AB38"],
+    "Escuridão": ["#162947", "#1B355A"],
+    "Ferro": ["#5C696F", "#72848E"],
     "Fada": ["#be407f", "#ee4f9f"],
   }
 

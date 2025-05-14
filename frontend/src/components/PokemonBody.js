@@ -3,16 +3,16 @@ import { Link } from "react-router-dom"
 import PokemonStatsBar from './PokemonStatsBar';
 import Type from './Type';
 
-export const PokemonBody = ({ id, name, sprites, type, species, height, weight, nextId, backId, nextName, backName, hp, attack, defense, spatk, spdef, speed, total }) => {
-
+export const PokemonBody = ({ id, name, sprites, type, species, height, weight, nextId, backId, nextName, backName, hp, attack, defense, spatk, spdef, speed, total, gen, nextGen, backGen }) => {
+    
     return (
         <div className='PokemonBody'>
             <div className='PokemonBody__header'>
-                <Link to={'/gen1/' + backId}>
+                <Link to={`/${backGen}/${backId}`}>
                     {backId === '' ? <div></div> : <button>{backName}</button>}
                 </Link>
                 <h1>{name}</h1>
-                <Link to={'/gen1/' + nextId}>
+                <Link to={`/${nextGen}/${nextId}`}>
                     {nextId === '' ? console.log("Erro") : <button>{nextName}</button>}
                 </Link>
             </div>

@@ -6,21 +6,22 @@ import ItemListPokemonHeader from '../components/ItemListPokemonHeader.js'
 const PokemonGen = () => {
   const { gen } = useParams();
   console.log(gen)
-  let genNum = 0;
+  let genName = '';
   if(gen === "gen1") {
-    genNum = 1;
+    genName = "Kanto";
   } else if(gen === "gen2") {
-    genNum = 2;
+    genName = "Johto";
   }
+  
   return (
-    <>
+    <div className='PokemonGen'>
       <div className="ItemListPokemon">
         <ItemListPokemonHeader />
-        <h2>Geração {genNum}</h2>
+        <h2>{genName}</h2>
         <br/>
       </div>
       <ItemListPokemon />
-    </>
+    </div>
   )
 }
 

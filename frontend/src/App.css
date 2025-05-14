@@ -127,6 +127,7 @@ a {
   color: black;
   text-shadow: 0 0 1px white ;
   box-shadow: 3px 3px 3px 2px black;
+  z-index: 1;
 }
 
 .Header__gen-megamenu > a + div {
@@ -142,15 +143,37 @@ a {
 }
 
 .Header__gen--hover-separator {
+  position: relative;
   width: 2px;
   height: 35px;
   background-color: black;
+}
+.Home {
+  position: relative;
+  background-color: beige;
+  min-height: 100vh;
+  z-index: 0;
+  /* background-size: 40%; */
+}
+
+.Home::before {
+  background-image: url("./assets/Images/PokemonBG.png");
+  content: '';
+  position: absolute;
+  inset: 0; /* top: 0; right: 0; bottom: 0; left: 0 */
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.PokemonGen {
+  /* background-image: url("./assets/Images/PokemonBG.png"); */
+  background-color: beige;
 }
 
 .ItemListPokemon {
   display: flex;
   flex-direction: column;
-  background-color: beige;
   width: auto;
   justify-content: center;
   align-items: center;
@@ -575,6 +598,7 @@ td {
   position: absolute;
   height: 120px;
   width: 100%;
+  z-index: 0;
 }
 
 .TypePageTypes__bar-color-bottom {

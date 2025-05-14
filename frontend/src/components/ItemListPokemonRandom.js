@@ -2,6 +2,7 @@ import React from 'react'
 import { ItemPokemon } from './ItemPokemon.js'
 import { arrayPokemon } from '../assets/database/pokemon151.js'
 
+// Ordenar o array randomicamente
 function fisherYates(arrayCopy) {
     for(let i = arrayPokemon.length-1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));

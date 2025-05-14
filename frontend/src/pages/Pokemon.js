@@ -3,10 +3,8 @@ import { useParams } from 'react-router'
 import { PokemonBody}  from '../components/PokemonBody'
 import { arrayPokemon } from '../assets/database/pokemon151.js'
 
-
 export const Pokemon = () => {
     const { id } = useParams();
-
     
     // const pokemon = arrayPokemon.find((pk) => {return pk.id === id})     O método find itera sobre o array e encontra o valor do array se determinada condição for satisfeita
     // console.log(pokemon)
@@ -18,11 +16,12 @@ export const Pokemon = () => {
     // console.log(arrayPokemon[lastIndexPokemon])
     // console.log(nextId)
 
+    // Lógica do botão de ir para o próximo pokémon e pokémon anterior
     for(let poke of arrayPokemon) {
         if(poke.id === nextId) {
             nextName = poke.name;
             
-        }else if(nextId === '0200') {
+        }else if(nextId === '0252') {
             nextId = '';
         }
         if(poke.id === backId) {
@@ -30,10 +29,23 @@ export const Pokemon = () => {
         }else if(backId === '0000') {
             backId = '';
         }
+    }   
+    
+    // Função para separa os pokémons conforme a geração
+    const getGen = (id) => {
+        const num = parseInt(id)
+        if(num <= 151) {
+            return "gen1";
+        } else if(num <= 251) {
+            return "gen2";
+        }
+        return "gen3";
     }
-    console.log(nextId);
-    // console.log(backName);
-        
+
+    // capturar a geração do proximo pokemon e do pokémon anterior para inserir na rota
+    const gen = getGen(id);
+    const nextGen = getGen(nextId)
+    const backGen = getGen(backId)
 
     return (
         <div>
@@ -59,6 +71,9 @@ export const Pokemon = () => {
                         spdef={pk.spdef}
                         speed={pk.speed}
                         total={pk.total}
+                        gen={gen}
+                        nextGen={nextGen}
+                        backGen={backGen}
                     />
                 }
             })}

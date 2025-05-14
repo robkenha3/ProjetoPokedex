@@ -4,13 +4,13 @@ import ItemListPokemonHeader from '../components/ItemListPokemonHeader.js'
 
 const Home = () => {
   return (
-    <>
+    <div className='Home'>
       <div className="ItemListPokemon">
         <ItemListPokemonHeader />
         <br/>
       </div>
       <ItemListPokemonRandom />
-    </>
+    </div>
   )
 }
 
