@@ -18,6 +18,11 @@ a {
   text-decoration: none;
 }
 
+.text1 {
+  font-size: 16px;
+  font-family:'Montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .Header {
   display: flex;
   justify-content: space-between;
@@ -144,10 +149,11 @@ a {
 
 .Header__gen--hover-separator {
   position: relative;
-  width: 2px;
+  width: 1px;
   height: 35px;
   background-color: black;
 }
+
 .Home {
   position: relative;
   background-color: beige;
@@ -180,6 +186,42 @@ a {
 
 }
 
+.ItemListPokemon__search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(to top, rgb(255, 203, 5), rgb(250, 206, 32));
+  border: 5px solid rgb(56, 95, 172);
+  width: 125px;
+  text-align: center;
+  padding: 8px; 
+  border-radius: 16px;
+  color: black;
+  text-shadow: 0 0 1px white ;
+  width: 400px;
+}
+
+.ItemListPokemon__search > input {
+  width: 125px;
+  text-align: center;
+  padding: 8px; 
+  border-radius: 16px;
+  color: black;
+  text-shadow: 0 0 1px white ;
+  width: 200px;
+}
+
+.ItemListPokemon__search > p {
+  border-top: 1px solid black;  
+  width: 100%;
+  padding-top: 10px;
+}
+
+.ItemListPokemon__search > p > span {
+  color: green;
+}
+
 /* Seleciona a 2ª img, independente da posição,  ignora os outros tipos (como div, p, span, etc.) e conta só as img! */
 .ItemListPokemon > img:nth-of-type(2) {
   position: absolute;
@@ -188,20 +230,18 @@ a {
   right: 7%;
   top: 250px;
   z-index: 0;
-
 }
 
 .ItemListPokemon__conteiner {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  grid-template-columns: repeat(13, 1fr);
   align-content: start;
   background-color: white;
   border-radius: 10px;
   border: 2px groove gray;
   width: 60vw;
-  height: auto;
+  min-height: 600px;
   z-index: 1;
-
 }
 
 .ItemPokemon {
@@ -210,7 +250,7 @@ a {
 
 .ItemPokemon a img {
   width: 100%;
-  height: 95%;
+  height: auto;
   mix-blend-mode: multiply;
 }
 
@@ -515,14 +555,16 @@ td {
 }
 
 .DisplayPokedex__type-container .Type div{
-  width: 70px;
+  position: relative;
+  right: 5px;
+  width: 80px;
   text-align: center;
   opacity: 0.6;
 }
 
 .DisplayPokedex__type-container .Type div + div{
   position: relative;
-  left: 92px;
+  left: 77px;
 }
 
 .DisplayPokedex__name-id {
@@ -721,6 +763,19 @@ span {
   }
 }
 
+.ItemListaPokemonRandom__see-more {
+  position: relative;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  top: 10px
+}
+
+.ItemListaPokemonRandom__see-more:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 600px) {
   .TypePage__grid {
     grid-template-columns: repeat(2, auto);
@@ -732,5 +787,23 @@ span {
   .TypePage__grid {
     grid-template-columns: repeat(3, auto);
     
+  }
+}
+
+@media (max-width: 1000px) {
+  .ItemListPokemon__conteiner {
+    grid-template-columns: repeat(10, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .ItemListPokemon__conteiner {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .ItemListPokemon__conteiner {
+    grid-template-columns: repeat(4, 1fr);
   }
 }

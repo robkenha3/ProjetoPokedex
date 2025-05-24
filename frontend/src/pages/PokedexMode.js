@@ -5,6 +5,7 @@ import { arrayPokemon } from '../assets/database/pokemon151.js'
 import { arrayTypes } from '../assets/database/arrayTypes.js'
 
 export const PokedexMode = () => {
+  arrayPokemon.sort((a, b) => parseInt(a.id) - parseInt(b.id))
   let [ currentPokemon, setCurrentPokemon ]  = useState(arrayPokemon[0]);
   let [ currentBg, setCurrentBg] = useState(arrayTypes.find(el => el.type === "Grama").img)
 

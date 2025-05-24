@@ -26,6 +26,8 @@ export const Header= (props) => {
                                     <Link to="/gen1" className="Header__gens">Geração 1</Link>
                                     <div className='Header__gen--hover-separator'></div>
                                     <Link to="/gen2" className="Header__gens">Geração 2</Link>
+                                    <div className='Header__gen--hover-separator'></div>
+                                    <Link to="/gen3" className="Header__gens">Geração 3</Link>
                                 </div>
                             </div>
 

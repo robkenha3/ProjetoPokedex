@@ -21,7 +21,7 @@ export const Pokemon = () => {
         if(poke.id === nextId) {
             nextName = poke.name;
             
-        }else if(nextId === '0252') {
+        }else if(nextId === '0386') {
             nextId = '';
         }
         if(poke.id === backId) {
@@ -38,9 +38,12 @@ export const Pokemon = () => {
             return "gen1";
         } else if(num <= 251) {
             return "gen2";
+        } else if(num <= 386) {
+            return "gen3";
         }
-        return "gen3";
+        return "gen4";
     }
+        
 
     // capturar a geração do proximo pokemon e do pokémon anterior para inserir na rota
     const gen = getGen(id);

@@ -11,6 +11,8 @@ const PokemonGen = () => {
     genName = "Kanto";
   } else if(gen === "gen2") {
     genName = "Johto";
+  } else if(gen === "gen3") {
+    genName = "Hoenn"
   }
   
   return (

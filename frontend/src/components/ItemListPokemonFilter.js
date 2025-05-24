@@ -22,7 +22,7 @@ export const ItemListPokemonFilter = ({ currentParams }) => {
     
         const newArrayPokemonFilter = newArrayPokemon.filter(el => {
             return el.type?.[0] === currentParams || el.type?.[1] === currentParams;
-        })
+        }).sort((a, b) => parseInt(a.id) - parseInt(b.id))
     
         setFilteredPokemon(newArrayPokemonFilter)
 
